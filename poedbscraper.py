@@ -101,7 +101,7 @@ for querygem in data_set["support"].keys():
 
 
 with open(jsonfile, 'w') as outfile:
-    json.dump(weights_dict, outfile)
+    json.dump(weights_dict, outfile, indent=4)
 
 
 #for regradevalue in soup.find("div", {"class": "table-responsive"}).find('tbody').find_all('tr'):
