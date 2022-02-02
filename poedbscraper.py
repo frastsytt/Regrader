@@ -13,8 +13,6 @@ jsonfile = 'weightings.json'
 
 print(data_set)
 
-
-
 for value in webpage["result"]:
     if value["id"] == "gems" and value["id"] != None:
         if value["entries"] != None:
@@ -31,8 +29,6 @@ for value in webpage["result"]:
                     pass
         else:
             pass
-
-#print(data_set["active"])
 
 url = "https://poedb.tw/us/"
 headers = {
@@ -51,6 +47,7 @@ for querygem in data_set["active"].keys():
     querygem = querygem.replace(" ", "_")
     querygem = querygem.replace("\'", "")
     url = f'https://poedb.tw/us/{querygem}'
+
     # get response for each gem
     req = requests.get(url, headers)
     soup = BeautifulSoup(req.content, 'html.parser')
@@ -62,13 +59,9 @@ for querygem in data_set["active"].keys():
         else:
             pass
 
-    #print(soup.find("div", {"id": f'{skillgem}'}))
-
     for regradevalue in soup.find("div", {"id": f'{skillgem}'}).find("div", {"class": "table-responsive"}).find('tbody').find_all('tr'):
-        tempvar = {regradevalue.find('td').text : regradevalue.find_all('td')[2].text}
+        tempvar = {regradevalue.find('td').text.replace(" ", "") : regradevalue.find_all('td')[2].text}
         weights_dict["active"][tempgem].update(tempvar)
-       # print(regradevalue.find('td').text)
-       # print(regradevalue.find_all('td')[2].text)
     time.sleep(0.25)
 
 
@@ -79,6 +72,7 @@ for querygem in data_set["support"].keys():
     querygem = querygem.replace(" ", "_")
     querygem = querygem.replace("\'", "")
     url = f'https://poedb.tw/us/{querygem}'
+
     # get response for each gem
     req = requests.get(url, headers)
     soup = BeautifulSoup(req.content, 'html.parser')
@@ -90,27 +84,14 @@ for querygem in data_set["support"].keys():
         else:
             pass
 
-    #print(soup.find("div", {"id": f'{skillgem}'}))
-
     for regradevalue in soup.find("div", {"id": f'{skillgem}'}).find("div", {"class": "table-responsive"}).find('tbody').find_all('tr'):
-        tempvar = {regradevalue.find('td').text : regradevalue.find_all('td')[2].text}
+        tempvar = {regradevalue.find('td').text.replace(" ", "") : regradevalue.find_all('td')[2].text}
         weights_dict["support"][tempgem].update(tempvar)
-       # print(regradevalue.find('td').text)
-       # print(regradevalue.find_all('td')[2].text)
     time.sleep(0.25)
 
 
 with open(jsonfile, 'w') as outfile:
     json.dump(weights_dict, outfile, indent=4)
-
-
-#for regradevalue in soup.find("div", {"class": "table-responsive"}).find('tbody').find_all('tr'):
-    #print(regradevalue.find('td').text)
-    #print(regradevalue.find_all('td')[2].text)
-
-
-
-#print(soup.find("div", {"class": "table-responsive"}).find('tbody'))
 
 
 
