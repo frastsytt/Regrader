@@ -55,7 +55,7 @@ for gemtype in data:
                                      "disabled": False}}}, "sort": {"price": "asc"}}
             obj_post = requests.post(url, data=json.dumps(myobj), headers=headers)
             respo = json.loads(obj_post.text)
-            print(respo["id"] + " - tradelink for: " + gem + altqual)
+            print(respo["id"] + " - tradelink for: " + altqual + gem)
             count = 0
             insertable = ''
 
@@ -68,38 +68,39 @@ for gemtype in data:
 
             fetchurl = 'https://www.pathofexile.com/api/trade/fetch/' + insertable + '?query=' + respo["id"]
 
-            # try to GET a gem trade listings, if it fails it skips the current iteration
+            # try to GET gem trade listings, if it fails it skips the current iteration
+            avgcalc = []
             try:
                 z = requests.get(fetchurl, headers=headers)
+                time.sleep(0.1)
+                for avg in json.loads(z.text)["result"]:
+                    if avg is None:
+                        break
+                    elif avg["listing"]["price"]["currency"] == "exalted":
+                        avgcalc.append(avg["listing"]["price"]["amount"] * exvalue)
+                    elif avg["listing"]["price"]["currency"] == "chaos":
+                        avgcalc.append(avg["listing"]["price"]["amount"])
+                    else:
+                        avgcalc.append(1)
+                        pass
+
+                print(f"The average price of {altqual}_{gem} is: {(statistics.median(avgcalc)) - 1}")
+
+                # build small dictionary to be inserted into the big dictionary
+                alt_price = {altqual: ((statistics.median(avgcalc)) - 1)}
+                data_set[gemtype][gem].update(alt_price)
+
+                # ??? why is this not printing
+                print(data_set[gemtype][gem])
+                print(data_set[gemtype][gem][altqual])
             except Exception as e:
                 print(e)
+                print(z.text)
                 print("I fucked up, error msg above.")
+                time.sleep(60)
                 continue
 
-            # start calcuating the median price of gem of current iteration
-            avgcalc = []
-
-            # only use chaos and ex values, if ex value convert to chaos
-            for avg in json.loads(z.text)["result"]:
-                if avg is None:
-                    break
-                elif avg["listing"]["price"]["currency"] == "exalt":
-                    avgcalc.append(avg["listing"]["price"]["amount"] * exvalue)
-                elif avg["listing"]["price"]["currency"] == "chaos":
-                    avgcalc.append(avg["listing"]["price"]["amount"])
-                else:
-                    pass
-
-            print(f"The average price of {altqual}_{gem} is: {(statistics.median(avgcalc)) - 1}")
-
-            # build small dictionary to be inserted into the big dictionary
-            alt_price = {altqual: ((statistics.median(avgcalc)) - 1)}
-            data_set[gemtype][gem].update(alt_price)
-
-            # ??? why is this not printing
-            print(data_set[gemtype][gem][altqual])
-
-            time.sleep(10)
+            time.sleep(2.1)
 
 # set file that the dictionary will be saved to
 jsonfile = 'pricejson.json'
@@ -108,7 +109,33 @@ with open(jsonfile, 'w') as outfile:
 
 # TEST AREA
 
-N = 3
-print("The original dictionary is : " + str(data_set))
-res = nlargest(N, data_set, key=data_set.get)
+expectedreturn = {}
+
+for gemtype in data:
+    for gem in data[gemtype]:
+        weightsum = 0
+        exppreturn = 0
+        for altqual in data[gemtype][gem][altqual[1:]].keys():
+            if altqual == "Superior":
+                continue
+            else:
+                weightsum += data[gemtype][gem][altqual].values()
+        for _altqual in data[gemtype][gem][altqual[1:]].keys():
+            exppreturn += data[gemtype][gem][_altqual] * data_set[gemtype][gem][_altqual]
+
+        if gemtype == "active":
+            print(f"{exppreturn - primary} - expected return of using primary lens on {gem}")
+        elif gemtype == "support":
+            print(f"{exppreturn - secondary} - expected return of using secondary lens on {gem}")
+        else:
+            pass
+
+        temp = {gem : exppreturn}
+        expectedreturn.update(temp)
+
+
+
+N = 10
+print("The original dictionary is : " + str(expectedreturn))
+res = nlargest(N, expectedreturn, key=expectedreturn.get)
 print("The top N value pairs are  " + str(res))
