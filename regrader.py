@@ -48,6 +48,13 @@ for value in webpage["result"]:
 for gemtype in data:
     for gem in data[gemtype]:
         for altqual in data[gemtype][gem].keys():
+            if altqual == "Superior":
+                alt_price = {altqual: 1}
+                data_set[gemtype][gem].update(alt_price)
+                print("Skipped altqual because its Superior")
+                continue
+            else:
+                pass
             # build up the post message to get trade listings
             myobj = {"query": {"status": {"option": "online"}, "type": gem,
                                "stats": [{"type": "and", "filters": [], "disabled": False}], "filters": {
@@ -61,9 +68,16 @@ for gemtype in data:
                 print(e)
                 print(respo)
                 time.sleep(60)
+                alt_price = {altqual: 1}
+                data_set[gemtype][gem].update(alt_price)
                 continue
             count = 0
             insertable = ''
+
+            if len(respo["result"]) == 0:
+                alt_price = {altqual: 1}
+                data_set[gemtype][gem].update(alt_price)
+                continue
 
             # build up the string that needs to be in the url
             for item in respo["result"]:
@@ -121,7 +135,7 @@ for gemtype in data:
     for gem in data[gemtype]:
         weightsum = 0
         exppreturn = 0
-        for altqual in data[gemtype][gem][altqual[1:]].keys():
+        for altqual in data[gemtype][gem][altqual].keys():
             if altqual == "Superior":
                 continue
             else:
@@ -140,8 +154,6 @@ for gemtype in data:
         expectedreturn.update(temp)
 
 
-
-N = 10
-print("The original dictionary is : " + str(expectedreturn))
-res = nlargest(N, expectedreturn, key=expectedreturn.get)
-print("The top N value pairs are  " + str(res))
+jsonfile = 'profits.json'
+with open(jsonfile, 'w') as outfile:
+    json.dump(expectedreturn, outfile, indent=4)
