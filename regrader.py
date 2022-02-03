@@ -55,7 +55,13 @@ for gemtype in data:
                                      "disabled": False}}}, "sort": {"price": "asc"}}
             obj_post = requests.post(url, data=json.dumps(myobj), headers=headers)
             respo = json.loads(obj_post.text)
-            print(respo["id"] + " - tradelink for: " + altqual + gem)
+            try:
+                print(respo["id"] + " - tradelink for: " + altqual + gem)
+            except Exception as e:
+                print(e)
+                print(respo)
+                time.sleep(60)
+                continue
             count = 0
             insertable = ''
 
@@ -100,7 +106,7 @@ for gemtype in data:
                 time.sleep(60)
                 continue
 
-            time.sleep(2.1)
+            time.sleep(10)
 
 # set file that the dictionary will be saved to
 jsonfile = 'pricejson.json'
