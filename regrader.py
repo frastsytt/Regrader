@@ -104,15 +104,14 @@ for gemtype in data:
                         avgcalc.append(1)
                         pass
 
-                print(f"The average price of {altqual}_{gem} is: {(statistics.median(avgcalc)) - 1}")
+                #print(f"The average price of {altqual}_{gem} is: {(statistics.median(avgcalc)) - 1}")
 
                 # build small dictionary to be inserted into the big dictionary
                 alt_price = {altqual: ((statistics.median(avgcalc)) - 1)}
                 data_set[gemtype][gem].update(alt_price)
 
                 # ??? why is this not printing
-                print(data_set[gemtype][gem])
-                print(data_set[gemtype][gem][altqual])
+                print(f"{data_set[gemtype][gem][altqual]}c - {altqual} - {gem}")
             except Exception as e:
                 print(e)
                 print(z.text)
@@ -140,7 +139,7 @@ for gemtype in data:
                 continue
             else:
                 weightsum += data[gemtype][gem][altqual].values()
-        for _altqual in data[gemtype][gem][altqual[1:]].keys():
+        for _altqual in data[gemtype][gem][altqual].keys():
             exppreturn += data[gemtype][gem][_altqual] * data_set[gemtype][gem][_altqual]
 
         if gemtype == "active":
