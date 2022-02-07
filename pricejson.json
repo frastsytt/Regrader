@@ -2,354 +2,354 @@
     "active": {
         "Absolution": {
             "Superior": 1,
-            "Anomalous": 14.0,
+            "Anomalous": 11.0,
             "Divergent": 14.0
         },
         "Infernal Cry": {
             "Superior": 1,
-            "Anomalous": 19.0,
-            "Divergent": 49,
-            "Phantasmal": 99
+            "Anomalous": 16.0,
+            "Divergent": 44,
+            "Phantasmal": 152.0
         },
         "Ambush": {
             "Superior": 1,
-            "Anomalous": 44,
-            "Divergent": 56.5
+            "Anomalous": 19,
+            "Divergent": 11.5
         },
         "Ancestral Cry": {
             "Superior": 1,
-            "Anomalous": 59,
-            "Divergent": 14
+            "Anomalous": 34,
+            "Divergent": 19
         },
         "Ancestral Warchief": {
             "Superior": 1,
-            "Anomalous": 49,
-            "Divergent": 58.0,
-            "Phantasmal": 24
+            "Anomalous": 10,
+            "Divergent": 102,
+            "Phantasmal": 26.5
         },
         "Anger": {
             "Superior": 1,
-            "Anomalous": 14.0,
-            "Divergent": 71.5
+            "Anomalous": 15.5,
+            "Divergent": 44
         },
         "Animate Guardian": {
             "Superior": 1,
-            "Anomalous": 53.0,
-            "Divergent": 169
+            "Anomalous": 37,
+            "Divergent": 163.8
         },
         "Animate Weapon": {
             "Superior": 1,
-            "Anomalous": 16.5,
-            "Divergent": 35.0,
-            "Phantasmal": 39.0
+            "Anomalous": 16.0,
+            "Divergent": 41.0,
+            "Phantasmal": 102.0
         },
         "Arc": {
             "Superior": 1,
-            "Anomalous": 59,
-            "Divergent": 37,
-            "Phantasmal": 1
+            "Anomalous": 69.0,
+            "Divergent": 24,
+            "Phantasmal": 44
         },
         "Arcane Cloak": {
             "Superior": 1,
-            "Anomalous": 18,
-            "Divergent": 19
+            "Anomalous": 19.0,
+            "Divergent": 36.5
         },
         "Arcanist Brand": {
-            "Anomalous": 41.5,
-            "Divergent": 9,
-            "Phantasmal": 4,
+            "Anomalous": 14.0,
+            "Divergent": 10,
+            "Phantasmal": 1,
             "Superior": 1
         },
         "Arctic Armour": {
             "Superior": 1,
-            "Anomalous": 23,
-            "Divergent": 169
+            "Anomalous": 79,
+            "Divergent": 1
         },
         "Creeping Frost": {
             "Superior": 1,
-            "Anomalous": 39,
-            "Divergent": 81.5,
-            "Phantasmal": 37.0
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Armageddon Brand": {
             "Superior": 1,
-            "Anomalous": 4,
-            "Divergent": 24.0
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Artillery Ballista": {
             "Superior": 1,
-            "Anomalous": 9,
+            "Anomalous": 1,
             "Divergent": 1
         },
         "Ball Lightning": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 74.0
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Barrage": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 22,
-            "Phantasmal": 23
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Battlemage's Cry": {
             "Superior": 1,
-            "Anomalous": 26.5,
-            "Divergent": 19
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Bear Trap": {
             "Superior": 1,
-            "Anomalous": 69,
-            "Divergent": 19,
+            "Anomalous": 1,
+            "Divergent": 1,
             "Phantasmal": 1
         },
         "Berserk": {
             "Superior": 1,
-            "Anomalous": 14,
-            "Divergent": 34
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Blade Blast": {
             "Superior": 1,
-            "Anomalous": 31.5,
-            "Divergent": 84,
-            "Phantasmal": 19.0
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Bladefall": {
             "Superior": 1,
-            "Anomalous": 9,
+            "Anomalous": 1,
             "Divergent": 1
         },
         "Bladestorm": {
             "Superior": 1,
-            "Anomalous": 7.5,
-            "Divergent": 20.5,
+            "Anomalous": 1,
+            "Divergent": 1,
             "Phantasmal": 1
         },
         "Blade Trap": {
             "Superior": 1,
-            "Anomalous": 19.0,
+            "Anomalous": 1,
             "Divergent": 1
         },
         "Blade Vortex": {
             "Superior": 1,
-            "Anomalous": 152.0,
-            "Divergent": 12,
-            "Phantasmal": 19
+            "Anomalous": 102.0,
+            "Divergent": 12.5,
+            "Phantasmal": 16
         },
         "Blast Rain": {
             "Superior": 1,
-            "Anomalous": 31.5,
-            "Divergent": 59,
-            "Phantasmal": 46.5
+            "Anomalous": 102,
+            "Divergent": 31.5,
+            "Phantasmal": 9
         },
         "Blazing Salvo": {
             "Superior": 1,
-            "Anomalous": 14,
-            "Divergent": 29
+            "Anomalous": 15,
+            "Divergent": 26.5
         },
         "Blight": {
             "Superior": 1,
-            "Anomalous": 13,
-            "Divergent": 34
+            "Anomalous": 14,
+            "Divergent": 24.0
         },
         "Blink Arrow": {
             "Superior": 1,
-            "Anomalous": 31.5,
-            "Divergent": 44,
+            "Anomalous": 24,
+            "Divergent": 1,
             "Phantasmal": 1
         },
         "Blood and Sand": {
             "Superior": 1,
-            "Anomalous": 26.5,
-            "Divergent": 39
+            "Anomalous": 24,
+            "Divergent": 34
         },
         "Blood Rage": {
             "Superior": 1,
-            "Anomalous": 424,
-            "Divergent": 12
+            "Anomalous": 462.5,
+            "Divergent": 13.5
         },
         "Reap": {
             "Superior": 1,
-            "Anomalous": 27,
-            "Divergent": 14
+            "Anomalous": 24,
+            "Divergent": 24
         },
         "Unearth": {
             "Superior": 1,
-            "Anomalous": 1,
-            "Divergent": 19,
+            "Anomalous": 49,
+            "Divergent": 36.5,
             "Phantasmal": 1
         },
         "Bone Offering": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 69
+            "Anomalous": 24,
+            "Divergent": 102.0
         },
         "Boneshatter": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 54
+            "Anomalous": 16.5,
+            "Divergent": 59.0
         },
         "Burning Arrow": {
             "Superior": 1,
-            "Anomalous": 34,
-            "Divergent": 14.0
+            "Anomalous": 25.0,
+            "Divergent": 17.0
         },
         "Chain Hook": {
             "Superior": 1,
-            "Anomalous": 1,
-            "Divergent": 19.0
+            "Anomalous": 24,
+            "Divergent": 29
         },
         "Blade Flurry": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 84
+            "Anomalous": 16.5,
+            "Divergent": 64
         },
         "Charged Dash": {
             "Superior": 1,
             "Anomalous": 1,
-            "Divergent": 21.5
+            "Divergent": 1
         },
         "Clarity": {
             "Superior": 1,
-            "Anomalous": 51.5,
-            "Divergent": 18.0
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Cleave": {
             "Superior": 1,
-            "Anomalous": 10.5,
-            "Divergent": 14.0,
-            "Phantasmal": 27.5
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Cobra Lash": {
             "Superior": 1,
-            "Anomalous": 84,
-            "Divergent": 61.5
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Purity of Ice": {
             "Superior": 1,
-            "Anomalous": 10.5,
-            "Divergent": 79.0
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Cold Snap": {
             "Superior": 1,
-            "Anomalous": 7,
-            "Divergent": 22
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Conductivity": {
             "Superior": 1,
-            "Anomalous": 16,
-            "Divergent": 14.0
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Consecrated Path": {
             "Superior": 1,
-            "Anomalous": 34,
-            "Divergent": 49,
-            "Phantasmal": 76.5
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Contagion": {
             "Superior": 1,
-            "Anomalous": 9.0,
-            "Divergent": 39
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Conversion Trap": {
             "Superior": 1,
             "Anomalous": 1,
-            "Divergent": 4
+            "Divergent": 1
         },
         "Convocation": {
             "Superior": 1,
-            "Anomalous": 49,
-            "Divergent": 339
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Cremation": {
             "Superior": 1,
-            "Anomalous": 9,
-            "Divergent": 76.5,
+            "Anomalous": 1,
+            "Divergent": 1,
             "Phantasmal": 1
         },
         "Bodyswap": {
             "Superior": 1,
-            "Anomalous": 19,
+            "Anomalous": 1,
             "Divergent": 1,
             "Phantasmal": 1
         },
         "Corrupting Fever": {
             "Superior": 1,
             "Anomalous": 19,
-            "Divergent": 14
+            "Divergent": 19
         },
         "Crackling Lance": {
             "Superior": 1,
-            "Anomalous": 76.5,
-            "Divergent": 17,
-            "Phantasmal": 56.5
+            "Anomalous": 39,
+            "Divergent": 14,
+            "Phantasmal": 74.0
         },
         "Assassin's Mark": {
             "Superior": 1,
-            "Anomalous": 36.5,
-            "Divergent": 29
+            "Anomalous": 78.5,
+            "Divergent": 19
         },
         "Cyclone": {
             "Superior": 1,
-            "Anomalous": 10,
-            "Divergent": 43,
-            "Phantasmal": 39
+            "Anomalous": 19,
+            "Divergent": 102,
+            "Phantasmal": 13.0
         },
         "Malevolence": {
             "Superior": 1,
-            "Anomalous": 160.5,
+            "Anomalous": 146.35,
             "Divergent": 14
         },
         "Dark Pact": {
             "Superior": 1,
             "Anomalous": 24,
-            "Divergent": 34
+            "Divergent": 28
         },
         "Bane": {
             "Superior": 1,
-            "Anomalous": 10.5,
-            "Divergent": 1
+            "Anomalous": 9.0,
+            "Divergent": 102.0
         },
         "Dash": {
             "Superior": 1,
-            "Anomalous": 37,
-            "Divergent": 59
+            "Anomalous": 22.5,
+            "Divergent": 69
         },
         "Decoy Totem": {
             "Superior": 1,
-            "Anomalous": 1,
-            "Divergent": 49,
+            "Anomalous": 153.5,
+            "Divergent": 69,
             "Phantasmal": 1
         },
         "Defiance Banner": {
             "Superior": 1,
-            "Anomalous": 339,
-            "Divergent": 29
+            "Anomalous": 308.0,
+            "Divergent": 9.5
         },
         "Desecrate": {
             "Superior": 1,
             "Anomalous": 12,
-            "Divergent": 19,
-            "Phantasmal": 164.75
+            "Divergent": 13,
+            "Phantasmal": 205.0
         },
         "Destructive Link": {
             "Superior": 1,
-            "Anomalous": 41.5,
-            "Divergent": 1
+            "Anomalous": 39,
+            "Divergent": 14.0
         },
         "Determination": {
             "Superior": 1,
-            "Anomalous": 29,
-            "Divergent": 679
+            "Anomalous": 23,
+            "Divergent": 823.0
         },
         "Detonate Dead": {
             "Superior": 1,
-            "Anomalous": 69,
-            "Divergent": 12
+            "Anomalous": 59.0,
+            "Divergent": 9
         },
         "Detonate Mines": {
             "Superior": 1,
-            "Anomalous": 14
+            "Anomalous": 1
         },
         "Devouring Totem": {
             "Superior": 1,
@@ -358,304 +358,304 @@
         },
         "Discharge": {
             "Superior": 1,
-            "Anomalous": 16,
-            "Divergent": 34,
-            "Phantasmal": 17
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Discipline": {
             "Superior": 1,
-            "Anomalous": 9,
-            "Divergent": 51.5
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Divine Ire": {
             "Superior": 1,
-            "Anomalous": 24.0,
-            "Divergent": 53
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Dominating Blow": {
             "Superior": 1,
-            "Anomalous": 14,
-            "Divergent": 19,
-            "Phantasmal": 84
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Double Strike": {
             "Superior": 1,
-            "Anomalous": 24,
-            "Divergent": 29
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Dread Banner": {
             "Superior": 1,
-            "Anomalous": 39,
-            "Divergent": 31.5
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Dual Strike": {
             "Superior": 1,
-            "Anomalous": 26.5,
-            "Divergent": 49,
+            "Anomalous": 1,
+            "Divergent": 1,
             "Phantasmal": 1
         },
         "Earthquake": {
             "Superior": 1,
-            "Anomalous": 29,
-            "Divergent": 43,
+            "Anomalous": 1,
+            "Divergent": 1,
             "Phantasmal": 1
         },
         "Earthshatter": {
             "Superior": 1,
-            "Anomalous": 84,
-            "Divergent": 10.0,
-            "Phantasmal": 44
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Elemental Hit": {
             "Superior": 1,
-            "Anomalous": 9.0,
-            "Divergent": 19
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Elemental Weakness": {
             "Superior": 1,
-            "Anomalous": 59,
-            "Divergent": 84
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Enduring Cry": {
             "Superior": 1,
-            "Anomalous": 16,
-            "Divergent": 14
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Energy Blade": {
             "Superior": 1,
-            "Anomalous": 59.0,
-            "Divergent": 22.5
+            "Anomalous": 1,
+            "Divergent": 21.0
         },
         "Enfeeble": {
             "Superior": 1,
-            "Anomalous": 15,
-            "Divergent": 11
+            "Anomalous": 14,
+            "Divergent": 1
         },
         "Ensnaring Arrow": {
             "Superior": 1,
-            "Anomalous": 14,
-            "Divergent": 9
+            "Anomalous": 4,
+            "Divergent": 1
         },
         "Essence Drain": {
             "Superior": 1,
-            "Anomalous": 17.5,
-            "Divergent": 29
+            "Anomalous": 14,
+            "Divergent": 38
         },
         "Ethereal Knives": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 8.5
+            "Anomalous": 19.0,
+            "Divergent": 29
         },
         "Explosive Arrow": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 61.0
+            "Anomalous": 22,
+            "Divergent": 205
         },
         "Explosive Concoction": {
             "Superior": 1,
-            "Anomalous": 14.0,
+            "Anomalous": 15.0,
             "Divergent": 19
         },
         "Exsanguinate": {
             "Superior": 1,
-            "Anomalous": 14,
-            "Divergent": 14
+            "Anomalous": 102,
+            "Divergent": 19
         },
         "Eye of Winter": {
             "Superior": 1,
             "Anomalous": 11.5,
-            "Divergent": 9.0
+            "Divergent": 13
         },
         "Fireball": {
             "Superior": 1,
-            "Anomalous": 11.5,
-            "Divergent": 1,
-            "Phantasmal": 39
+            "Anomalous": 19,
+            "Divergent": 90.5,
+            "Phantasmal": 19.0
         },
         "Scorching Ray": {
             "Superior": 1,
-            "Anomalous": 9,
-            "Divergent": 29
+            "Anomalous": 13.5,
+            "Divergent": 28.5
         },
         "Pyroclast Mine": {
             "Superior": 1,
-            "Anomalous": 19.0,
-            "Divergent": 13,
+            "Anomalous": 36.0,
+            "Divergent": 1,
             "Phantasmal": 21.5
         },
         "Purity of Fire": {
             "Superior": 1,
-            "Anomalous": 9,
-            "Divergent": 49
+            "Anomalous": 14.0,
+            "Divergent": 29
         },
         "Firestorm": {
             "Superior": 1,
-            "Anomalous": 6.5,
+            "Anomalous": 34.0,
             "Divergent": 17
         },
         "Fire Trap": {
             "Superior": 1,
-            "Anomalous": 9,
-            "Divergent": 169
+            "Anomalous": 7.0,
+            "Divergent": 49.0
         },
         "Flameblast": {
             "Superior": 1,
-            "Anomalous": 49,
-            "Divergent": 254.0,
-            "Phantasmal": 38
+            "Anomalous": 41,
+            "Divergent": 49,
+            "Phantasmal": 22
         },
         "Flame Dash": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 109.0
+            "Anomalous": 89,
+            "Divergent": 205
         },
         "Flame Link": {
             "Superior": 1,
-            "Anomalous": 14.0,
-            "Divergent": 11.5
+            "Anomalous": 19.0,
+            "Divergent": 9
         },
         "Flamethrower Trap": {
             "Superior": 1,
-            "Anomalous": 49.0,
+            "Anomalous": 19,
             "Divergent": 9
         },
         "Holy Flame Totem": {
             "Superior": 1,
-            "Anomalous": 5.0,
-            "Divergent": 32.5,
+            "Anomalous": 9,
+            "Divergent": 21.0,
             "Phantasmal": 1
         },
         "Flame Wall": {
             "Superior": 1,
             "Anomalous": 18,
-            "Divergent": 13,
+            "Divergent": 34.0,
             "Phantasmal": 1
         },
         "Flame Surge": {
             "Superior": 1,
-            "Anomalous": 49,
+            "Anomalous": 617,
             "Divergent": 16.5
         },
         "Flammability": {
             "Superior": 1,
-            "Anomalous": 24,
-            "Divergent": 16.5
+            "Anomalous": 23.0,
+            "Divergent": 1
         },
         "Flesh and Stone": {
             "Superior": 1,
-            "Anomalous": 21,
-            "Divergent": 25
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Flesh Offering": {
             "Superior": 1,
-            "Anomalous": 84,
-            "Divergent": 24
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Flicker Strike": {
             "Superior": 1,
-            "Anomalous": 29,
-            "Divergent": 34
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Forbidden Rite": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 9
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Icicle Mine": {
             "Superior": 1,
-            "Anomalous": 29,
-            "Divergent": 19
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Freezing Pulse": {
             "Superior": 1,
-            "Anomalous": 16.5,
-            "Divergent": 19
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Frenzy": {
             "Superior": 1,
-            "Anomalous": 24,
-            "Divergent": 9,
-            "Phantasmal": 29
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Frostbite": {
             "Superior": 1,
-            "Anomalous": 54,
-            "Divergent": 31.5
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Frost Blades": {
             "Superior": 1,
-            "Anomalous": 46.0,
-            "Divergent": 53.0
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Frostblink": {
             "Superior": 1,
-            "Anomalous": 34,
-            "Divergent": 39
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Frostbolt": {
             "Superior": 1,
-            "Anomalous": 41.5,
-            "Divergent": 14,
-            "Phantasmal": 84.0
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Vortex": {
             "Superior": 1,
-            "Anomalous": 24,
-            "Divergent": 19,
-            "Phantasmal": 14.0
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Frost Bomb": {
             "Superior": 1,
-            "Anomalous": 24.0,
-            "Divergent": 19,
-            "Phantasmal": 84.0
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 48
         },
         "Frost Shield": {
             "Superior": 1,
-            "Anomalous": 19.0,
-            "Divergent": 29,
-            "Phantasmal": 59
+            "Anomalous": 24,
+            "Divergent": 24,
+            "Phantasmal": 39
         },
         "Frost Wall": {
             "Superior": 1,
-            "Anomalous": 6.5,
-            "Divergent": 9
+            "Anomalous": 4,
+            "Divergent": 1
         },
         "General's Cry": {
             "Superior": 1,
-            "Anomalous": 15,
-            "Divergent": 19
+            "Anomalous": 12,
+            "Divergent": 17.5
         },
         "Glacial Cascade": {
             "Superior": 1,
             "Anomalous": 9.0,
-            "Divergent": 41.5
+            "Divergent": 23.5
         },
         "Glacial Hammer": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 40
+            "Anomalous": 39,
+            "Divergent": 34
         },
         "Grace": {
             "Superior": 1,
-            "Anomalous": 19.0,
-            "Divergent": 19
+            "Anomalous": 39,
+            "Divergent": 19.0
         },
         "Ground Slam": {
             "Superior": 1,
-            "Anomalous": 18.0,
-            "Divergent": 27
+            "Anomalous": 8,
+            "Divergent": 25
         },
         "Haste": {
             "Superior": 1,
             "Anomalous": 19,
-            "Divergent": 18.0,
-            "Phantasmal": 1
+            "Divergent": 19.0,
+            "Phantasmal": 102
         },
         "Hatred": {
             "Superior": 1,
-            "Anomalous": 9,
-            "Divergent": 79
+            "Anomalous": 11,
+            "Divergent": 23.5
         },
         "Heavy Strike": {
             "Superior": 1,
@@ -664,28 +664,28 @@
         },
         "Herald of Agony": {
             "Superior": 1,
-            "Anomalous": 69,
+            "Anomalous": 43,
             "Divergent": 44
         },
         "Herald of Ash": {
             "Superior": 1,
-            "Anomalous": 24.0,
-            "Divergent": 39.0
+            "Anomalous": 23,
+            "Divergent": 34.0
         },
         "Herald of Ice": {
             "Superior": 1,
-            "Anomalous": 29,
-            "Divergent": 26.5
+            "Anomalous": 14,
+            "Divergent": 19
         },
         "Herald of Purity": {
             "Superior": 1,
-            "Anomalous": 24,
-            "Divergent": 34
+            "Anomalous": 18,
+            "Divergent": 29
         },
         "Herald of Thunder": {
             "Superior": 1,
-            "Anomalous": 9,
-            "Divergent": 19
+            "Anomalous": 11.5,
+            "Divergent": 9
         },
         "Hexblast": {
             "Superior": 1,
@@ -695,146 +695,146 @@
         },
         "Hydrosphere": {
             "Superior": 1,
-            "Anomalous": 9.5,
-            "Divergent": 26.0
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Ice Crash": {
             "Superior": 1,
-            "Anomalous": 46,
-            "Divergent": 39,
-            "Phantasmal": 39
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Ice Nova": {
             "Superior": 1,
-            "Anomalous": 29,
-            "Divergent": 18,
-            "Phantasmal": 10.0
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Ice Shot": {
             "Superior": 1,
-            "Anomalous": 9,
-            "Divergent": 22
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Siphoning Trap": {
             "Superior": 1,
             "Anomalous": 1,
-            "Divergent": 34.0,
+            "Divergent": 1,
             "Phantasmal": 1
         },
         "Ice Spear": {
             "Superior": 1,
-            "Anomalous": 296.5,
-            "Divergent": 19,
-            "Phantasmal": 39.0
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Ice Trap": {
             "Superior": 1,
-            "Anomalous": 36.0,
-            "Divergent": 48.0
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Immortal Call": {
             "Superior": 1,
-            "Anomalous": 18.0,
-            "Divergent": 16.5
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Incinerate": {
             "Superior": 1,
-            "Anomalous": 14.0,
-            "Divergent": 74
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Infernal Blow": {
             "Superior": 1,
             "Anomalous": 1,
-            "Divergent": 14,
-            "Phantasmal": 58.0
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Intimidating Cry": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 16.0,
-            "Phantasmal": 23.5
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Intuitive Link": {
             "Superior": 1,
-            "Anomalous": 424.0,
-            "Divergent": 84
+            "Anomalous": 1,
+            "Divergent": 44.0
         },
         "Kinetic Blast": {
             "Superior": 1,
-            "Anomalous": 296.5,
+            "Anomalous": 354.35,
             "Divergent": 14
         },
         "Kinetic Bolt": {
             "Superior": 1,
-            "Anomalous": 118.0,
-            "Divergent": 18
+            "Anomalous": 148.35,
+            "Divergent": 18.0
         },
         "Lacerate": {
             "Superior": 1,
-            "Anomalous": 14,
-            "Divergent": 84
+            "Anomalous": 17.5,
+            "Divergent": 1
         },
         "Lancing Steel": {
             "Superior": 1,
-            "Anomalous": 28,
-            "Divergent": 34,
-            "Phantasmal": 44
+            "Anomalous": 19.0,
+            "Divergent": 29,
+            "Phantasmal": 11.5
         },
         "Leap Slam": {
             "Superior": 1,
-            "Anomalous": 29.0,
-            "Divergent": 24,
-            "Phantasmal": 71.5
+            "Anomalous": 24,
+            "Divergent": 14,
+            "Phantasmal": 205
         },
         "Lightning Arrow": {
             "Superior": 1,
-            "Anomalous": 14,
-            "Divergent": 34,
-            "Phantasmal": 849
+            "Anomalous": 19,
+            "Divergent": 24,
+            "Phantasmal": 508.85
         },
         "Purity of Lightning": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 1
+            "Anomalous": 18,
+            "Divergent": 24
         },
         "Lightning Strike": {
             "Superior": 1,
-            "Anomalous": 84,
-            "Divergent": 37.5,
-            "Phantasmal": 15.0
+            "Anomalous": 102.0,
+            "Divergent": 23.0,
+            "Phantasmal": 28.5
         },
         "Lightning Tendrils": {
             "Superior": 1,
-            "Anomalous": 12.5,
-            "Divergent": 29,
-            "Phantasmal": 5864
+            "Anomalous": 4,
+            "Divergent": 21.5,
+            "Phantasmal": 514
         },
         "Lightning Spire Trap": {
             "Superior": 1,
-            "Anomalous": 20.5,
-            "Divergent": 1
+            "Anomalous": 21.5,
+            "Divergent": 14
         },
         "Lightning Trap": {
             "Superior": 1,
-            "Anomalous": 10,
+            "Anomalous": 9,
             "Divergent": 1
         },
         "Lightning Warp": {
             "Superior": 1,
-            "Anomalous": 31.5,
-            "Divergent": 34.0,
-            "Phantasmal": 1
+            "Anomalous": 29,
+            "Divergent": 38.5,
+            "Phantasmal": 29
         },
         "Rolling Magma": {
             "Superior": 1,
-            "Anomalous": 29,
-            "Divergent": 1,
+            "Anomalous": 28.0,
+            "Divergent": 21.5,
             "Phantasmal": 1
         },
         "Manabond": {
             "Superior": 1,
-            "Anomalous": 1,
-            "Divergent": 1
+            "Anomalous": 44,
+            "Divergent": 179.25
         },
         "Ancestral Protector": {
             "Superior": 1,
@@ -899,74 +899,74 @@
         "Seismic Trap": {
             "Superior": 1,
             "Anomalous": 1,
-            "Divergent": 84,
-            "Phantasmal": 12
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Plague Bearer": {
             "Superior": 1,
-            "Anomalous": 9,
-            "Divergent": 296.5
+            "Anomalous": 14.0,
+            "Divergent": 308.0
         },
         "Poacher's Mark": {
             "Superior": 1,
-            "Anomalous": 24,
-            "Divergent": 13.5
+            "Anomalous": 19,
+            "Divergent": 12.5
         },
         "Caustic Arrow": {
             "Superior": 1,
-            "Anomalous": 9,
-            "Divergent": 19
+            "Anomalous": 14,
+            "Divergent": 18.5
         },
         "Poisonous Concoction": {
             "Superior": 1,
             "Anomalous": 4,
-            "Divergent": 177.5
+            "Divergent": 266.8
         },
         "Portal": {
             "Superior": 1,
-            "Anomalous": 51.5
+            "Anomalous": 64
         },
         "Power Siphon": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 9.0
+            "Anomalous": 16,
+            "Divergent": 8.5
         },
         "Precision": {
             "Superior": 1,
-            "Anomalous": 211.5,
-            "Divergent": 39
+            "Anomalous": 436.75,
+            "Divergent": 29
         },
         "Pride": {
             "Superior": 1,
             "Anomalous": 19,
-            "Divergent": 29
+            "Divergent": 22
         },
         "Sniper's Mark": {
             "Superior": 1,
-            "Anomalous": 9,
-            "Divergent": 19
+            "Anomalous": 3.0,
+            "Divergent": 18
         },
         "Protective Link": {
             "Superior": 1,
-            "Anomalous": 29.0,
-            "Divergent": 29
+            "Anomalous": 24.0,
+            "Divergent": 102
         },
         "Puncture": {
             "Superior": 1,
             "Anomalous": 1,
             "Divergent": 1,
-            "Phantasmal": 21
+            "Phantasmal": 19
         },
         "Punishment": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 14.0
+            "Anomalous": 10.0,
+            "Divergent": 1
         },
         "Wave of Conviction": {
             "Superior": 1,
-            "Anomalous": 5,
-            "Divergent": 19,
-            "Phantasmal": 117.99999999999999
+            "Anomalous": 9,
+            "Divergent": 17.5,
+            "Phantasmal": 48
         },
         "Purity of Elements": {
             "Superior": 1,
@@ -975,374 +975,374 @@
         },
         "Rage Vortex": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 16.5
+            "Anomalous": 13,
+            "Divergent": 1
         },
         "Rain of Arrows": {
             "Superior": 1,
-            "Anomalous": 33.5,
-            "Divergent": 75.5,
-            "Phantasmal": 9
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Raise Spectre": {
             "Superior": 1,
-            "Anomalous": 27,
-            "Divergent": 20.0,
-            "Phantasmal": 9
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Raise Zombie": {
             "Superior": 1,
-            "Anomalous": 11.5,
-            "Divergent": 9,
-            "Phantasmal": 69
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Rallying Cry": {
             "Superior": 1,
-            "Anomalous": 14.0,
-            "Divergent": 54,
-            "Phantasmal": 19
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Reave": {
             "Superior": 1,
-            "Anomalous": 11,
-            "Divergent": 9,
-            "Phantasmal": 9
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Brand Recall": {
             "Superior": 1,
-            "Anomalous": 19
+            "Anomalous": 1
         },
         "Reckoning": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 9,
-            "Phantasmal": 3.0
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Rejuvenation Totem": {
             "Superior": 1,
-            "Anomalous": 18,
-            "Divergent": 29
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Righteous Fire": {
             "Superior": 1,
-            "Anomalous": 11,
-            "Divergent": 19
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Riposte": {
             "Superior": 1,
-            "Anomalous": 29,
-            "Divergent": 24
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Purifying Flame": {
             "Superior": 1,
             "Anomalous": 1,
-            "Divergent": 25,
-            "Phantasmal": 36.5
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Scourge Arrow": {
             "Superior": 1,
-            "Anomalous": 69.0,
-            "Divergent": 34.0,
-            "Phantasmal": 21.5
+            "Anomalous": 1,
+            "Divergent": 24.0,
+            "Phantasmal": 19
         },
         "Searing Bond": {
             "Superior": 1,
-            "Anomalous": 1,
-            "Divergent": 25.5,
-            "Phantasmal": 1
+            "Anomalous": 29,
+            "Divergent": 21.0,
+            "Phantasmal": 59
         },
         "Seismic Cry": {
             "Superior": 1,
             "Anomalous": 19,
-            "Divergent": 69,
-            "Phantasmal": 9
+            "Divergent": 85.5,
+            "Phantasmal": 14.0
         },
         "Shattering Steel": {
             "Superior": 1,
-            "Anomalous": 4,
-            "Divergent": 79,
-            "Phantasmal": 18
+            "Anomalous": 4.0,
+            "Divergent": 102,
+            "Phantasmal": 86.55000000000001
         },
         "Shield Charge": {
             "Superior": 1,
             "Anomalous": 19,
-            "Divergent": 33
+            "Divergent": 24
         },
         "Shield Crush": {
             "Superior": 1,
-            "Anomalous": 14,
-            "Divergent": 38.5
+            "Anomalous": 10.0,
+            "Divergent": 29
         },
         "Shock Nova": {
             "Superior": 1,
-            "Anomalous": 69,
-            "Divergent": 20.0
+            "Anomalous": 24,
+            "Divergent": 13
         },
         "Shockwave Totem": {
             "Superior": 1,
-            "Anomalous": 14,
+            "Anomalous": 10.5,
             "Divergent": 1,
-            "Phantasmal": 1
+            "Phantasmal": 14
         },
         "Shrapnel Ballista": {
             "Superior": 1,
             "Anomalous": 1,
-            "Divergent": 36,
-            "Phantasmal": 58.0
+            "Divergent": 24.0,
+            "Phantasmal": 29.0
         },
         "Galvanic Arrow": {
             "Superior": 1,
-            "Anomalous": 40.0,
-            "Divergent": 72.0
+            "Anomalous": 27.5,
+            "Divergent": 61.5
         },
         "Explosive Trap": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 51.5
+            "Anomalous": 14.0,
+            "Divergent": 39
         },
         "Siege Ballista": {
             "Superior": 1,
-            "Anomalous": 109.5,
-            "Divergent": 6.5,
-            "Phantasmal": 19
+            "Anomalous": 143.2,
+            "Divergent": 31.0,
+            "Phantasmal": 19.0
         },
         "Sigil of Power": {
             "Superior": 1,
-            "Anomalous": 18.5,
-            "Divergent": 21.0,
+            "Anomalous": 1,
+            "Divergent": 19.0,
             "Phantasmal": 1
         },
         "Smite": {
             "Superior": 1,
             "Anomalous": 14,
-            "Divergent": 39,
-            "Phantasmal": 169
+            "Divergent": 17,
+            "Phantasmal": 926.0
         },
         "Smoke Mine": {
             "Superior": 1,
-            "Anomalous": 9.0,
-            "Divergent": 9
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Soul Link": {
             "Superior": 1,
-            "Anomalous": 21.5,
-            "Divergent": 11
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Soulrend": {
             "Superior": 1,
-            "Anomalous": 21.5,
-            "Divergent": 24.0,
-            "Phantasmal": 40.5
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Spark": {
             "Superior": 1,
-            "Anomalous": 49,
-            "Divergent": 84,
-            "Phantasmal": 31.5
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Spectral Helix": {
             "Superior": 1,
-            "Anomalous": 14,
-            "Divergent": 19
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Zealotry": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 169
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Spellslinger": {
             "Superior": 1,
-            "Anomalous": 9,
-            "Divergent": 36.5
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Spirit Offering": {
             "Superior": 1,
-            "Anomalous": 9,
-            "Divergent": 29
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Split Arrow": {
             "Superior": 1,
-            "Anomalous": 20.5,
-            "Divergent": 12
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Splitting Steel": {
             "Superior": 1,
-            "Anomalous": 23.5,
-            "Divergent": 14.0,
-            "Phantasmal": 14
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Static Strike": {
             "Superior": 1,
-            "Anomalous": 34,
-            "Divergent": 111.5,
-            "Phantasmal": 0
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Steelskin": {
             "Superior": 1,
-            "Anomalous": 14,
-            "Divergent": 9.5
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Stormbind": {
             "Superior": 1,
-            "Anomalous": 14,
-            "Divergent": 4,
-            "Phantasmal": 4
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Stormblast Mine": {
             "Superior": 1,
-            "Anomalous": 8.0,
-            "Divergent": 29,
-            "Phantasmal": 9.0
+            "Anomalous": 72,
+            "Divergent": 19,
+            "Phantasmal": 14
         },
         "Storm Brand": {
             "Superior": 1,
-            "Anomalous": 16.5,
-            "Divergent": 14,
-            "Phantasmal": 30.0
+            "Anomalous": 24,
+            "Divergent": 9,
+            "Phantasmal": 24.0
         },
         "Storm Burst": {
             "Superior": 1,
-            "Anomalous": 33.0,
-            "Divergent": 119.0
+            "Anomalous": 25,
+            "Divergent": 205.0
         },
         "Storm Call": {
             "Superior": 1,
-            "Anomalous": 1,
-            "Divergent": 39,
-            "Phantasmal": 147.75
+            "Anomalous": 9,
+            "Divergent": 18,
+            "Phantasmal": 153.5
         },
         "Storm Rain": {
             "Superior": 1,
-            "Anomalous": 24,
-            "Divergent": 19.0
+            "Anomalous": 26.5,
+            "Divergent": 16.5
         },
         "Summon Carrion Golem": {
             "Superior": 1,
             "Anomalous": 29,
-            "Divergent": 19.0
+            "Divergent": 19
         },
         "Summon Chaos Golem": {
             "Superior": 1,
-            "Anomalous": 54.0,
-            "Divergent": 21
+            "Anomalous": 24,
+            "Divergent": 14
         },
         "Summon Flame Golem": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 19
+            "Anomalous": 29,
+            "Divergent": 22.0
         },
         "Summon Ice Golem": {
             "Superior": 1,
-            "Anomalous": 29,
-            "Divergent": 23
+            "Anomalous": 79,
+            "Divergent": 16.5
         },
         "Summon Lightning Golem": {
             "Superior": 1,
-            "Anomalous": 29,
-            "Divergent": 19
+            "Anomalous": 23,
+            "Divergent": 14
         },
         "Summon Raging Spirit": {
             "Superior": 1,
-            "Anomalous": 29,
-            "Divergent": 19,
-            "Phantasmal": 1
+            "Anomalous": 9.0,
+            "Divergent": 23,
+            "Phantasmal": 24
         },
         "Summon Reaper": {
             "Superior": 1,
-            "Anomalous": 18,
-            "Divergent": 19
+            "Anomalous": 266.5,
+            "Divergent": 14
         },
         "Summon Holy Relic": {
             "Superior": 1,
             "Anomalous": 14,
-            "Divergent": 169
+            "Divergent": 127.75
         },
         "Summon Stone Golem": {
             "Superior": 1,
-            "Anomalous": 39,
-            "Divergent": 31.5
+            "Anomalous": 27,
+            "Divergent": 70.5
         },
         "Summon Skeletons": {
             "Superior": 1,
-            "Anomalous": 34,
-            "Divergent": 9.0,
-            "Phantasmal": 24.5
+            "Anomalous": 49,
+            "Divergent": 14.0,
+            "Phantasmal": 29
         },
         "Summon Skitterbots": {
             "Superior": 1,
-            "Anomalous": 16.5,
-            "Divergent": 152.0
+            "Anomalous": 11,
+            "Divergent": 143.2
         },
         "Sunder": {
             "Superior": 1,
-            "Anomalous": 58.5,
-            "Divergent": 24.0,
-            "Phantasmal": 1
+            "Anomalous": 19,
+            "Divergent": 24,
+            "Phantasmal": 14.0
         },
         "Sweep": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 105.25,
-            "Phantasmal": 84
+            "Anomalous": 29.5,
+            "Divergent": 19.0,
+            "Phantasmal": 1
         },
         "Tectonic Slam": {
             "Superior": 1,
-            "Anomalous": 21.5,
-            "Divergent": 1,
-            "Phantasmal": 1
+            "Anomalous": 19,
+            "Divergent": 29.0,
+            "Phantasmal": 19
         },
         "Tempest Shield": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 254
+            "Anomalous": 13,
+            "Divergent": 302.85
         },
         "Temporal Chains": {
             "Superior": 1,
-            "Anomalous": 23,
-            "Divergent": 21.0
+            "Anomalous": 14,
+            "Divergent": 21.5
         },
         "Temporal Rift": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 21.5
+            "Anomalous": 9,
+            "Divergent": 25.5
         },
         "Spectral Shield Throw": {
             "Superior": 1,
-            "Anomalous": 21,
-            "Divergent": 11.5,
-            "Phantasmal": 190.25
+            "Anomalous": 14.0,
+            "Divergent": 9,
+            "Phantasmal": 1
         },
         "Spectral Throw": {
             "Superior": 1,
-            "Anomalous": 19.0,
-            "Divergent": 69
+            "Anomalous": 13.5,
+            "Divergent": 34.0
         },
         "Tornado": {
             "Superior": 1,
-            "Anomalous": 1,
-            "Divergent": 56.5
+            "Anomalous": 16.5,
+            "Divergent": 34
         },
         "Tornado Shot": {
             "Superior": 1,
-            "Anomalous": 1,
+            "Anomalous": 256.5,
             "Divergent": 19
         },
         "Toxic Rain": {
             "Superior": 1,
-            "Anomalous": 14,
-            "Divergent": 17,
-            "Phantasmal": 169
+            "Anomalous": 9,
+            "Divergent": 12.5,
+            "Phantasmal": 122.6
         },
         "Vampiric Link": {
             "Superior": 1,
             "Anomalous": 19,
-            "Divergent": 24
+            "Divergent": 20.0
         },
         "Vengeance": {
             "Superior": 1,
-            "Anomalous": 18,
-            "Divergent": 6.5,
-            "Phantasmal": 64
+            "Anomalous": 27,
+            "Divergent": 9,
+            "Phantasmal": 44.0
         },
         "Venom Gyre": {
             "Superior": 1,
@@ -1351,162 +1351,162 @@
         },
         "Vigilant Strike": {
             "Superior": 1,
-            "Anomalous": 14,
-            "Divergent": 59,
-            "Phantasmal": 29
+            "Anomalous": 19.0,
+            "Divergent": 1,
+            "Phantasmal": 27
         },
         "Viper Strike": {
             "Superior": 1,
-            "Anomalous": 39.5,
-            "Divergent": 9,
+            "Anomalous": 14,
+            "Divergent": 9.0,
             "Phantasmal": 1
         },
         "Vitality": {
             "Superior": 1,
-            "Anomalous": 84,
-            "Divergent": 29
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Void Sphere": {
             "Superior": 1,
-            "Anomalous": 34,
+            "Anomalous": 1,
             "Divergent": 1,
-            "Phantasmal": 34
+            "Phantasmal": 1
         },
         "Volatile Dead": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 15.0
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Voltaxic Burst": {
             "Superior": 1,
-            "Anomalous": 29,
-            "Divergent": 24.0
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Despair": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 39
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "War Banner": {
             "Superior": 1,
-            "Anomalous": 58,
-            "Divergent": 14
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Warlord's Mark": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 18
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Whirling Blades": {
             "Superior": 1,
-            "Anomalous": 13.5,
-            "Divergent": 76.5
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Wild Strike": {
             "Superior": 1,
-            "Anomalous": 19.0,
-            "Divergent": 14.0,
-            "Phantasmal": 59
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Winter Orb": {
             "Superior": 1,
-            "Anomalous": 11.0,
-            "Divergent": 19,
-            "Phantasmal": 29
+            "Anomalous": 1,
+            "Divergent": 1,
+            "Phantasmal": 1
         },
         "Wintertide Brand": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 11
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Wither": {
             "Superior": 1,
-            "Anomalous": 9,
-            "Divergent": 26.5
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Withering Step": {
             "Superior": 1,
-            "Anomalous": 63,
-            "Divergent": 29
+            "Anomalous": 1,
+            "Divergent": 1
         },
         "Wrath": {
             "Superior": 1,
             "Anomalous": 24,
-            "Divergent": 317.75
+            "Divergent": 205.0
         }
     },
     "support": {
         "Added Chaos Damage Support": {
             "Superior": 1,
             "Anomalous": 9,
-            "Divergent": 36.5
+            "Divergent": 29.0
         },
         "Added Cold Damage Support": {
             "Superior": 1,
-            "Anomalous": 12.5,
+            "Anomalous": 14,
             "Divergent": 24
         },
         "Added Fire Damage Support": {
             "Superior": 1,
-            "Anomalous": 17,
-            "Divergent": 30.0
+            "Anomalous": 9,
+            "Divergent": 14
         },
         "Added Lightning Damage Support": {
             "Superior": 1,
-            "Anomalous": 19.0,
-            "Divergent": 29
+            "Anomalous": 24.0,
+            "Divergent": 19.0
         },
         "Additional Accuracy Support": {
             "Superior": 1,
-            "Anomalous": 84,
-            "Divergent": 339
+            "Anomalous": 53,
+            "Divergent": 405.85
         },
         "Empower Support": {
             "Superior": 1,
-            "Anomalous": 122.75
+            "Anomalous": 102
         },
         "Enhance Support": {
             "Superior": 1,
-            "Anomalous": 1
+            "Anomalous": 69
         },
         "Enlighten Support": {
             "Superior": 1,
-            "Anomalous": 679
+            "Anomalous": 1
         },
         "Arcane Surge Support": {
             "Superior": 1,
-            "Anomalous": 24,
-            "Divergent": 46.5
+            "Anomalous": 49,
+            "Divergent": 24
         },
         "Archmage Support": {
             "Superior": 1,
-            "Anomalous": 44,
-            "Divergent": 94.0
+            "Anomalous": 89,
+            "Divergent": 26.5
         },
         "Arrow Nova Support": {
             "Superior": 1,
-            "Anomalous": 36.5,
+            "Anomalous": 20.0,
             "Divergent": 1
         },
         "Barrage Support": {
             "Superior": 1,
-            "Anomalous": 39,
-            "Divergent": 19
+            "Anomalous": 29,
+            "Divergent": 14
         },
         "Behead Support": {
             "Superior": 1,
-            "Anomalous": 1,
-            "Divergent": 1
+            "Anomalous": 148.35,
+            "Divergent": 26.5
         },
         "Blasphemy Support": {
             "Superior": 1,
-            "Anomalous": 23,
-            "Divergent": 1
+            "Anomalous": 14,
+            "Divergent": -1
         },
         "Blind Support": {
             "Superior": 1,
-            "Anomalous": 1,
-            "Divergent": 44
+            "Anomalous": 4,
+            "Divergent": 19
         },
         "Block Chance Reduction Support": {
             "Superior": 1,
@@ -1519,163 +1519,163 @@
         },
         "Arrogance Support": {
             "Superior": 1,
-            "Anomalous": 39,
-            "Divergent": 18.0
+            "Anomalous": 29,
+            "Divergent": 20.5
         },
         "Bloodthirst Support": {
             "Superior": 1,
-            "Anomalous": 10,
-            "Divergent": 29
+            "Anomalous": 9,
+            "Divergent": 27
         },
         "Bonechill Support": {
             "Superior": 1,
-            "Anomalous": 17.5,
-            "Divergent": 19.0
+            "Anomalous": 14,
+            "Divergent": 112.0
         },
         "Brutality Support": {
             "Superior": 1,
-            "Anomalous": 38.0,
+            "Anomalous": 24,
             "Divergent": 9
         },
         "Cast On Critical Strike Support": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 23.5
+            "Anomalous": 18.5,
+            "Divergent": 19
         },
         "Cast when Damage Taken Support": {
             "Superior": 1,
-            "Anomalous": 49,
-            "Divergent": 339
+            "Anomalous": 32,
+            "Divergent": 411
         },
         "Cast on Death Support": {
             "Superior": 1,
             "Anomalous": 1,
-            "Divergent": 29
+            "Divergent": 24.0
         },
         "Cast on Melee Kill Support": {
             "Superior": 1,
-            "Anomalous": 16,
-            "Divergent": 23.5
+            "Anomalous": 17.5,
+            "Divergent": 18.5
         },
         "Cast when Stunned Support": {
             "Superior": 1,
             "Anomalous": 14,
-            "Divergent": 198.75
+            "Divergent": 99
         },
         "Cast while Channelling Support": {
             "Superior": 1,
-            "Anomalous": 24,
-            "Divergent": 19.0
+            "Anomalous": 73.5,
+            "Divergent": 14
         },
         "Chain Support": {
             "Superior": 1,
-            "Anomalous": 16,
-            "Divergent": 24
+            "Anomalous": 14,
+            "Divergent": 49
         },
         "Chance to Bleed Support": {
             "Superior": 1,
-            "Anomalous": 35,
-            "Divergent": 190.25
+            "Anomalous": 23,
+            "Divergent": 102.0
         },
         "Chance to Flee Support": {
             "Superior": 1,
-            "Anomalous": 169
+            "Anomalous": 44.0
         },
         "Combustion Support": {
             "Superior": 1,
-            "Anomalous": 14,
-            "Divergent": 84
+            "Anomalous": 19,
+            "Divergent": 64.0
         },
         "Withering Touch Support": {
             "Superior": 1,
-            "Anomalous": 42,
-            "Divergent": 1
+            "Anomalous": 26,
+            "Divergent": 44
         },
         "Charged Mines Support": {
             "Superior": 1,
-            "Anomalous": 14,
-            "Divergent": 54
+            "Anomalous": 16.5,
+            "Divergent": 74
         },
         "Close Combat Support": {
             "Superior": 1,
-            "Anomalous": 21.0,
-            "Divergent": 7
+            "Anomalous": 19,
+            "Divergent": 11.5
         },
         "Cluster Traps Support": {
             "Superior": 1,
-            "Anomalous": 24,
-            "Divergent": 39
+            "Anomalous": 38,
+            "Divergent": 29.0
         },
         "Cold Penetration Support": {
             "Superior": 1,
-            "Anomalous": 11.5,
-            "Divergent": 19
+            "Anomalous": 9,
+            "Divergent": 14
         },
         "Cold to Fire Support": {
             "Superior": 1,
-            "Anomalous": 26.0,
-            "Divergent": 1
+            "Anomalous": 1,
+            "Divergent": 24
         },
         "Concentrated Effect Support": {
             "Superior": 1,
-            "Anomalous": 84,
+            "Anomalous": 49,
             "Divergent": 11.0
         },
         "Controlled Destruction Support": {
             "Superior": 1,
-            "Anomalous": 59,
-            "Divergent": 14
+            "Anomalous": 74.0,
+            "Divergent": 9.0
         },
         "Cruelty Support": {
             "Superior": 1,
-            "Anomalous": 28.0,
-            "Divergent": 11.5
+            "Anomalous": 27.5,
+            "Divergent": 9.0
         },
         "Culling Strike Support": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 1
+            "Anomalous": 9,
+            "Divergent": 29
         },
         "Hextouch Support": {
-            "Anomalous": 34,
+            "Anomalous": 14,
             "Superior": 1,
-            "Divergent": 61.5
+            "Divergent": 19.0
         },
         "Hypothermia Support": {
             "Superior": 1,
-            "Anomalous": 22.0,
-            "Divergent": 37
+            "Anomalous": 19.0,
+            "Divergent": 32
         },
         "Deadly Ailments Support": {
             "Superior": 1,
-            "Anomalous": 1,
-            "Divergent": 21.5
+            "Anomalous": 19,
+            "Divergent": 18
         },
         "Predator Support": {
             "Superior": 1,
-            "Divergent": 43.5,
-            "Anomalous": 29
+            "Divergent": 102,
+            "Anomalous": 39
         },
         "Decay Support": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 14
+            "Anomalous": 14,
+            "Divergent": 9
         },
         "Divine Blessing Support": {},
         "Earthbreaker Support": {
             "Superior": 1,
-            "Anomalous": 19.0,
-            "Divergent": 1
+            "Anomalous": 18.0,
+            "Divergent": 89
         },
         "Efficacy Support": {
             "Superior": 1,
-            "Anomalous": 39.0,
-            "Divergent": 64
+            "Anomalous": 34,
+            "Divergent": 39
         },
         "Elemental Focus Support": {
             "Superior": 1,
-            "Anomalous": 39,
-            "Divergent": 1
+            "Anomalous": 9,
+            "Divergent": 39
         },
         "Elemental Penetration Support": {
             "Superior": 1,
@@ -1683,120 +1683,120 @@
         },
         "Elemental Proliferation Support": {
             "Superior": 1,
-            "Anomalous": 24,
-            "Divergent": 24.0
+            "Anomalous": 17,
+            "Divergent": 23
         },
         "Endurance Charge on Melee Stun Support": {
             "Superior": 1,
-            "Anomalous": 29,
-            "Divergent": 43
+            "Anomalous": 29.0,
+            "Divergent": 18
         },
         "Energy Leech Support": {
             "Superior": 1,
-            "Anomalous": 14,
-            "Divergent": 28.5
+            "Anomalous": 11,
+            "Divergent": 31.5
         },
         "Eternal Blessing Support": {},
         "Faster Attacks Support": {
             "Superior": 1,
-            "Anomalous": 49,
-            "Divergent": 14
+            "Anomalous": 88,
+            "Divergent": 18.0
         },
         "Faster Casting Support": {
             "Superior": 1,
-            "Anomalous": 49,
-            "Divergent": 49
+            "Anomalous": 65,
+            "Divergent": 9
         },
         "Faster Projectiles Support": {
             "Superior": 1,
-            "Anomalous": 24,
-            "Divergent": 26.0
+            "Anomalous": 21.5,
+            "Divergent": 19
         },
         "Feeding Frenzy Support": {
             "Superior": 1,
-            "Anomalous": 126.5,
-            "Divergent": 14
+            "Anomalous": 184.4,
+            "Divergent": 19
         },
         "Fire Penetration Support": {
             "Superior": 1,
             "Anomalous": 14,
-            "Divergent": 169
+            "Divergent": 102
         },
         "Fist of War Support": {
             "Superior": 1,
-            "Anomalous": 29,
-            "Divergent": 24
+            "Anomalous": 14.0,
+            "Divergent": 28
         },
         "Focused Ballista Support": {
             "Superior": 1,
-            "Anomalous": 10.0,
-            "Divergent": 16
+            "Anomalous": 9.0,
+            "Divergent": 102
         },
         "Fork Support": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 54.0
+            "Anomalous": 14.0,
+            "Divergent": 102
         },
         "Fortify Support": {
             "Superior": 1,
-            "Anomalous": 18,
+            "Anomalous": 13,
             "Divergent": 14
         },
         "Ice Bite Support": {
             "Superior": 1,
-            "Anomalous": 23.5,
-            "Divergent": 29
+            "Anomalous": 24.0,
+            "Divergent": 24.0
         },
         "Charged Traps Support": {
             "Superior": 1,
-            "Anomalous": 14,
-            "Divergent": 34
+            "Anomalous": 24,
+            "Divergent": 27.0
         },
         "Generosity Support": {
             "Superior": 1,
             "Anomalous": 29,
-            "Divergent": 14
+            "Divergent": 18.0
         },
         "Greater Multiple Projectiles Support": {
             "Superior": 1,
-            "Anomalous": 169,
-            "Divergent": 39
+            "Anomalous": 174.1,
+            "Divergent": 39.0
         },
         "Greater Volley Support": {
             "Superior": 1,
-            "Anomalous": 14,
-            "Divergent": 51
+            "Anomalous": 9.0,
+            "Divergent": 54.5
         },
         "Unleash Support": {
             "Superior": 1,
-            "Anomalous": 18.0,
-            "Divergent": 41.5
+            "Anomalous": 14,
+            "Divergent": 29
         },
         "Intensify Support": {
             "Superior": 1,
-            "Anomalous": 14.0,
-            "Divergent": 99,
-            "Phantasmal": 38
+            "Anomalous": 9,
+            "Divergent": 29,
+            "Phantasmal": 19
         },
         "High-Impact Mine Support": {
             "Superior": 1,
-            "Anomalous": 18.5,
-            "Divergent": 1
+            "Anomalous": 9,
+            "Divergent": 102.0
         },
         "Ignite Proliferation Support": {
             "Superior": 1,
-            "Anomalous": 16,
-            "Divergent": 66.5
+            "Anomalous": 14.0,
+            "Divergent": 102
         },
         "Immolate Support": {
             "Superior": 1,
-            "Anomalous": 49,
-            "Divergent": 23.0
+            "Anomalous": 39,
+            "Divergent": 9.0
         },
         "Impale Support": {
             "Superior": 1,
-            "Anomalous": 37,
-            "Divergent": 61.5
+            "Anomalous": 74,
+            "Divergent": 24
         },
         "Impending Doom Support": {
             "Anomalous": 1,
@@ -1805,42 +1805,42 @@
         },
         "Increased Area of Effect Support": {
             "Superior": 1,
-            "Anomalous": 22.5,
-            "Divergent": 41.5
+            "Anomalous": 19,
+            "Divergent": 19
         },
         "Burning Damage Support": {
             "Superior": 1,
-            "Anomalous": 51.5,
-            "Divergent": 28.0
+            "Anomalous": 39,
+            "Divergent": 18
         },
         "Increased Critical Damage Support": {
             "Superior": 1,
-            "Anomalous": 44.0,
-            "Divergent": 24
+            "Anomalous": 24,
+            "Divergent": 14
         },
         "Increased Critical Strikes Support": {
             "Superior": 1,
-            "Anomalous": 14,
-            "Divergent": 31.5
+            "Anomalous": 55,
+            "Divergent": 149
         },
         "Increased Duration Support": {
             "Superior": 1,
             "Anomalous": 19.0,
-            "Divergent": 58.5
+            "Divergent": 14
         },
         "Infernal Legion Support": {
             "Superior": 1,
-            "Anomalous": 29,
-            "Divergent": 29
+            "Anomalous": 14,
+            "Divergent": 19
         },
         "Iron Grip Support": {
             "Superior": 1,
             "Anomalous": 17,
-            "Divergent": 19
+            "Divergent": 18.0
         },
         "Iron Will Support": {
             "Superior": 1,
-            "Anomalous": 16.0,
+            "Anomalous": 14.0,
             "Divergent": 19
         },
         "Item Quantity Support": {
@@ -1848,142 +1848,142 @@
         },
         "Item Rarity Support": {
             "Superior": 1,
-            "Anomalous": 14
+            "Anomalous": 19
         },
         "Knockback Support": {
             "Superior": 1,
             "Anomalous": 4,
-            "Divergent": 1
+            "Divergent": 16.5
         },
         "Lesser Multiple Projectiles Support": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 39.0
+            "Anomalous": 14,
+            "Divergent": 19
         },
         "Chance to Poison Support": {
             "Superior": 1,
-            "Anomalous": 24,
-            "Divergent": 9
+            "Anomalous": 24.0,
+            "Divergent": 99
         },
         "Life Gain on Hit Support": {
             "Superior": 1,
-            "Anomalous": 7,
-            "Divergent": 29
+            "Anomalous": 21,
+            "Divergent": 205
         },
         "Life Leech Support": {
             "Superior": 1,
-            "Anomalous": 15.0,
-            "Divergent": 26.5
+            "Anomalous": 14,
+            "Divergent": 19
         },
         "Lifetap Support": {
             "Superior": 1,
-            "Anomalous": 26.5,
-            "Divergent": 41.0
+            "Anomalous": 19,
+            "Divergent": 29
         },
         "Lightning Penetration Support": {
             "Superior": 1,
             "Anomalous": 9,
-            "Divergent": 28
+            "Divergent": 19.0
         },
         "Maim Support": {
             "Superior": 1,
-            "Anomalous": 18,
-            "Divergent": 13
+            "Anomalous": 18.0,
+            "Divergent": 14
         },
         "Mana Leech Support": {
             "Superior": 1,
             "Anomalous": 69,
-            "Divergent": 9
+            "Divergent": 69.0
         },
         "Mark On Hit Support": {},
         "Meat Shield Support": {
             "Superior": 1,
-            "Anomalous": 23.0,
-            "Divergent": 126.5
+            "Anomalous": 102,
+            "Divergent": 126.25
         },
         "Damage on Full Life Support": {
             "Superior": 1,
-            "Anomalous": 26.5,
-            "Divergent": 33
+            "Anomalous": 17,
+            "Divergent": 19
         },
         "Melee Physical Damage Support": {
             "Superior": 1,
-            "Anomalous": 40.5,
-            "Divergent": 9.0
+            "Anomalous": 32,
+            "Divergent": 9
         },
         "Melee Splash Support": {
             "Superior": 1,
-            "Anomalous": 45.5,
-            "Divergent": 254
+            "Anomalous": 44,
+            "Divergent": 287.4
         },
         "Minefield Support": {
             "Superior": 1,
-            "Anomalous": 9.0,
-            "Divergent": 47
+            "Anomalous": 18.5,
+            "Divergent": 44
         },
         "Minion Damage Support": {
             "Superior": 1,
             "Anomalous": 14,
-            "Divergent": 419.75
+            "Divergent": 308
         },
         "Minion Life Support": {
             "Superior": 1,
-            "Anomalous": 59,
-            "Divergent": 6.5
+            "Anomalous": 56,
+            "Divergent": 9
         },
         "Minion Speed Support": {
             "Superior": 1,
-            "Anomalous": 49,
-            "Divergent": 22
+            "Anomalous": 39,
+            "Divergent": 19.0
         },
         "Mirage Archer Support": {
             "Superior": 1,
-            "Anomalous": 75.5,
-            "Divergent": 18.5
+            "Anomalous": 91.7,
+            "Divergent": 22
         },
         "Spell Echo Support": {
             "Superior": 1,
-            "Anomalous": 46.0,
-            "Divergent": 84.0
+            "Anomalous": 49,
+            "Divergent": 122.6
         },
         "Multistrike Support": {
             "Superior": 1,
-            "Anomalous": 28,
-            "Divergent": 149.0
+            "Anomalous": 26.0,
+            "Divergent": 205.0
         },
         "Multiple Totems Support": {
             "Superior": 1,
-            "Anomalous": 24,
-            "Divergent": 21.0
+            "Anomalous": 13,
+            "Divergent": 18.0
         },
         "Multiple Traps Support": {
             "Superior": 1,
-            "Anomalous": 9,
-            "Divergent": 12.5
+            "Anomalous": 19.5,
+            "Divergent": 8.0
         },
         "Nightblade Support": {
             "Superior": 1,
-            "Anomalous": 228.50000000000003,
-            "Divergent": 19
+            "Anomalous": 1,
+            "Divergent": 19.0
         },
         "Onslaught Support": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 24
+            "Anomalous": 12,
+            "Divergent": 23.5
         },
         "Innervate Support": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 15
+            "Anomalous": 9,
+            "Divergent": 23
         },
         "Volley Support": {
             "Superior": 1,
-            "Anomalous": 1,
-            "Divergent": 28
+            "Anomalous": 21.5,
+            "Divergent": 15
         },
         "Vicious Projectiles Support": {
             "Superior": 1,
-            "Anomalous": 14.0,
+            "Anomalous": 14,
             "Divergent": 19
         },
         "Physical to Lightning Support": {
@@ -1993,149 +1993,149 @@
         },
         "Pierce Support": {
             "Superior": 1,
-            "Anomalous": 126.5,
-            "Divergent": 24.0
+            "Anomalous": 44,
+            "Divergent": 56.5
         },
         "Pinpoint Support": {
             "Superior": 1,
-            "Anomalous": 16.0,
-            "Divergent": 19
+            "Anomalous": 34.0,
+            "Divergent": 16
         },
         "Point Blank Support": {
             "Superior": 1,
-            "Anomalous": 30.0,
-            "Divergent": 1
+            "Anomalous": 18.5,
+            "Divergent": 19
         },
         "Critical Strike Affliction Support": {
             "Superior": 1,
-            "Anomalous": 14,
-            "Divergent": 9
+            "Anomalous": 12,
+            "Divergent": 16.5
         },
         "Power Charge On Critical Support": {
             "Superior": 1,
             "Anomalous": 19,
-            "Divergent": 1
+            "Divergent": 205
         },
         "Pulverise Support": {
             "Superior": 1,
-            "Anomalous": 20.5,
-            "Divergent": 1
+            "Anomalous": 19,
+            "Divergent": 514
         },
         "Rage Support": {
             "Superior": 1,
-            "Anomalous": 14,
-            "Divergent": 481.5
+            "Anomalous": 19,
+            "Divergent": 926
         },
         "Ballista Totem Support": {
             "Superior": 1,
-            "Anomalous": 24,
-            "Divergent": 48.5,
-            "Phantasmal": 84
+            "Anomalous": 18.5,
+            "Divergent": 34,
+            "Phantasmal": 308.0
         },
         "Swift Affliction Support": {
             "Superior": 1,
-            "Anomalous": 24.0,
-            "Divergent": 98.5
+            "Anomalous": 19,
+            "Divergent": 63.5
         },
         "Less Duration Support": {
             "Superior": 1,
-            "Anomalous": 19.0,
-            "Divergent": 169.0
+            "Anomalous": 13,
+            "Divergent": 69
         },
         "Inspiration Support": {
             "Superior": 1,
-            "Anomalous": 84.0,
-            "Divergent": 169
+            "Anomalous": 102,
+            "Divergent": 143.2
         },
         "Blastchain Mine Support": {
             "Superior": 1,
-            "Anomalous": 9,
-            "Divergent": 9
+            "Anomalous": 11.0,
+            "Divergent": 9.0
         },
         "Ruthless Support": {
             "Superior": 1,
             "Anomalous": 19,
-            "Divergent": 26
+            "Divergent": 14
         },
         "Second Wind Support": {
             "Superior": 1,
-            "Anomalous": 29,
-            "Divergent": 33
+            "Anomalous": 27,
+            "Divergent": 29
         },
         "Shockwave Support": {
             "Superior": 1,
-            "Anomalous": 14.0,
-            "Divergent": 18
+            "Anomalous": 14,
+            "Divergent": 19
         },
         "Slower Projectiles Support": {
             "Superior": 1,
-            "Anomalous": 14,
-            "Divergent": 49.0
+            "Anomalous": 47,
+            "Divergent": 47.0
         },
         "Spell Cascade Support": {
             "Superior": 1,
-            "Anomalous": 23.0,
-            "Divergent": 74
+            "Anomalous": 14,
+            "Divergent": 28.0
         },
         "Spell Totem Support": {
             "Superior": 1,
-            "Anomalous": 19.0,
-            "Divergent": 29
+            "Anomalous": 29.0,
+            "Divergent": 31.5
         },
         "Ancestral Call Support": {
             "Superior": 1,
-            "Anomalous": 14,
-            "Divergent": 44.0
+            "Anomalous": 8,
+            "Divergent": 51.5
         },
         "Infused Channelling Support": {
             "Superior": 1,
-            "Anomalous": 29,
+            "Anomalous": 24,
             "Divergent": 15.0
         },
         "Stun Support": {
             "Superior": 1,
-            "Anomalous": 49,
+            "Anomalous": 23,
             "Divergent": 1
         },
         "Elemental Army Support": {
             "Superior": 1,
             "Anomalous": 15.0,
-            "Divergent": 24
+            "Divergent": 21.5
         },
         "Summon Phantasm Support": {
             "Superior": 1,
-            "Anomalous": 21.0,
+            "Anomalous": 18.5,
             "Divergent": 29
         },
         "Swift Assembly Support": {
             "Superior": 1,
-            "Anomalous": 17,
-            "Divergent": 1
+            "Anomalous": 9,
+            "Divergent": 61.5
         },
         "Swiftbrand Support": {
             "Superior": 1,
-            "Anomalous": 81.0,
-            "Divergent": 25.0
+            "Anomalous": 49,
+            "Divergent": 24
         },
         "Trap Support": {
             "Superior": 1,
             "Anomalous": 13.5,
-            "Divergent": 18.0
+            "Divergent": 19
         },
         "Trap and Mine Damage Support": {
             "Superior": 1,
-            "Anomalous": 29,
-            "Divergent": 1
+            "Anomalous": 24,
+            "Divergent": 122.0
         },
         "Advanced Traps Support": {
             "Superior": 1,
-            "Anomalous": 8,
-            "Divergent": 59.0
+            "Anomalous": 176.5,
+            "Divergent": 29
         },
         "Trinity Support": {
             "Superior": 1,
-            "Anomalous": 14,
-            "Divergent": 29
+            "Anomalous": 13,
+            "Divergent": 91.7
         },
         "Unbound Ailments Support": {
             "Superior": 1,
@@ -2144,23 +2144,23 @@
         },
         "Urgent Orders Support": {
             "Superior": 1,
-            "Anomalous": 19,
-            "Divergent": 339
+            "Anomalous": 14,
+            "Divergent": 308
         },
         "Vile Toxins Support": {
             "Superior": 1,
-            "Anomalous": 19.0,
-            "Divergent": 17
+            "Anomalous": 19,
+            "Divergent": 14.0
         },
         "Void Manipulation Support": {
             "Superior": 1,
-            "Anomalous": 14.0,
+            "Anomalous": 14,
             "Divergent": 1
         },
         "Elemental Damage with Attacks Support": {
             "Superior": 1,
-            "Anomalous": 12.5,
-            "Divergent": 1
+            "Anomalous": 19.0,
+            "Divergent": 127.75
         }
     }
 }
