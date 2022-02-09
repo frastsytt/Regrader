@@ -6,9 +6,9 @@ req = urllib.request.Request("https://www.pathofexile.com/api/trade/data/items",
 webpage = json.loads(urllib.request.urlopen(req).read())
 
 # temp orb prices
-exvalue = 120
-primary = 50
-secondary = 80
+exvalue = 100
+primary = 60
+secondary = 40
 
 # read weightings.json so that we can query all alt gem types
 with open('weightings.json') as f:
@@ -21,7 +21,7 @@ query_dict = {"Superior": "0",
               "Phantasmal": "3"}
 
 # static urls + headers
-url = 'https://www.pathofexile.com/api/trade/search/Standard'
+url = 'https://www.pathofexile.com/api/trade/search/Archnemesis'
 headers = {'User-Agent': 'Mozilla/5.0', 'content-type': 'application/json'}
 
 # start making the pricejson dictionary
@@ -128,31 +128,31 @@ with open(jsonfile, 'w') as outfile:
 
 # TEST AREA
 
-expectedreturn = {}
-
-for gemtype in data:
-    for gem in data[gemtype]:
-        weightsum = 0
-        exppreturn = 0
-        for altqual in data[gemtype][gem][altqual].keys():
-            if altqual == "Superior":
-                continue
-            else:
-                weightsum += data[gemtype][gem][altqual].values()
-        for _altqual in data[gemtype][gem][altqual].keys():
-            exppreturn += data[gemtype][gem][_altqual] * data_set[gemtype][gem][_altqual]
-
-        if gemtype == "active":
-            print(f"{exppreturn - primary} - expected return of using primary lens on {gem}")
-        elif gemtype == "support":
-            print(f"{exppreturn - secondary} - expected return of using secondary lens on {gem}")
-        else:
-            pass
-
-        temp = {gem : exppreturn}
-        expectedreturn.update(temp)
-
-
-jsonfile = 'profits.json'
-with open(jsonfile, 'w') as outfile:
-    json.dump(expectedreturn, outfile, indent=4)
+# expectedreturn = {}
+#
+# for gemtype in data:
+#     for gem in data[gemtype]:
+#         weightsum = 0
+#         exppreturn = 0
+#         for altqual in data[gemtype][gem]:
+#             if altqual == "Superior":
+#                 continue
+#             else:
+#                 weightsum += data[gemtype][gem][altqual].values()
+#         for _altqual in data[gemtype][gem][altqual].keys():
+#             exppreturn += data[gemtype][gem][_altqual] * data_set[gemtype][gem][_altqual]
+#
+#         if gemtype == "active":
+#             print(f"{exppreturn - primary} - expected return of using primary lens on {gem}")
+#         elif gemtype == "support":
+#             print(f"{exppreturn - secondary} - expected return of using secondary lens on {gem}")
+#         else:
+#             pass
+#
+#         temp = {gem : exppreturn}
+#         expectedreturn.update(temp)
+#
+#
+# jsonfile = 'profits.json'
+# with open(jsonfile, 'w') as outfile:
+#     json.dump(expectedreturn, outfile, indent=4)
