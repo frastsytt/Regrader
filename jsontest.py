@@ -88,7 +88,7 @@ except Exception as e:
     with open(jsonfile, 'w') as outfile:
         json.dump(f, outfile, indent=4)
         
-weightFile = open("weightList.txt", "w")
-for element in weightList:
-    weightFile.write(str(element) + "\n")
-weightFile.close
+# weightFile = open("weightList.txt", "w")
+# for element in weightList:
+#     weightFile.write(str(element) + "\n")
+# weightFile.close
