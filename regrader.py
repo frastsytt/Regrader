@@ -6,7 +6,7 @@ req = urllib.request.Request("https://www.pathofexile.com/api/trade/data/items",
 webpage = json.loads(urllib.request.urlopen(req).read())
 
 # temp orb prices
-exvalue = 130
+exvalue = 132
 primary = 100
 secondary = 130
 
