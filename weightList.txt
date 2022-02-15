@@ -1,0 +1,350 @@
+-84.73Absolution
+-63.980000000000004Infernal Cry
+-80.37285714285714Ambush
+-70.73Ancestral Cry
+-71.36636363636364Ancestral Warchief
+-80.37285714285716Anger
+3.1700000000000017Animate Guardian
+-63.75941176470589Animate Weapon
+-44.4064705882353Arc
+-75.31333333333333Arcane Cloak
+-88.89666666666668Arcanist Brand
+-25.320909090909097Arctic Armour
+-96.23Creeping Frost
+-96.23Armageddon Brand
+-96.23Artillery Ballista
+-96.23Ball Lightning
+-96.23Barrage
+-96.23Battlemage's Cry
+-96.23Bear Trap
+-96.23Berserk
+-96.23Blade Blast
+-96.23Bladefall
+-96.23Bladestorm
+-96.23Blade Trap
+-78.80142857142857Blade Vortex
+-49.730000000000004Blast Rain
+-80.31333333333333Blazing Salvo
+-78.23Blight
+-85.77545454545455Blink Arrow
+-68.23Blood and Sand
+-42.911818181818184Blood Rage
+-73.23Reap
+-58.27545454545455Unearth
+-57.629999999999995Bone Offering
+-73.64666666666668Boneshatter
+-76.23Burning Arrow
+-71.56333333333333Chain Hook
+-64.89666666666668Blade Flurry
+-96.23Charged Dash
+-96.23Clarity
+-96.23Cleave
+-96.23Cobra Lash
+-96.23Purity of Ice
+-96.23Cold Snap
+-96.23Conductivity
+-96.23Consecrated Path
+-96.23Contagion
+-96.23Conversion Trap
+-96.23Convocation
+-96.23Cremation
+-96.23Bodyswap
+-78.23Corrupting Fever
+-53.684545454545464Crackling Lance
+-48.480000000000004Assassin's Mark
+-52.56333333333333Cyclone
+-76.92761904761906Malevolence
+-71.89666666666668Dark Pact
+-83.80142857142857Bane
+-66.98Dash
+8.769999999999982Decoy Totem
+-60.593636363636364Defiance Banner
+-75.56333333333333Desecrate
+-70.73Destructive Link
+-1.5027272727272702Determination
+-71.56333333333333Detonate Dead
+-96.23Detonate Mines
+-96.23Devouring Totem
+-96.23Discharge
+-96.23Discipline
+-96.23Divine Ire
+-96.23Dominating Blow
+-96.23Double Strike
+-96.23Dread Banner
+-96.23Dual Strike
+-96.23Earthquake
+-96.23Earthshatter
+-96.23Elemental Hit
+-96.23Elemental Weakness
+-96.23Enduring Cry
+-86.23Energy Blade
+-89.73Enfeeble
+-93.73Ensnaring Arrow
+-79.23Essence Drain
+-76.56333333333333Ethereal Knives
+-44.730000000000004Explosive Arrow
+-80.23Explosive Concoction
+-36.730000000000004Exsanguinate
+-84.98Eye of Winter
+-59.16333333333334Fireball
+-78.73Scorching Ray
+-77.73Pyroclast Mine
+-81.86636363636364Purity of Fire
+-68.08714285714287Firestorm
+-83.23Fire Trap
+-66.105Flameblast
+30.436666666666653Flame Dash
+-83.23Flame Link
+-83.23Flamethrower Trap
+-86.41181818181819Holy Flame Totem
+-72.4204761904762Flame Wall
+-26.13909090909091Flame Surge
+-85.23Flammability
+-96.23Flesh and Stone
+-96.23Flesh Offering
+-96.23Flicker Strike
+-96.23Forbidden Rite
+-96.23Icicle Mine
+-96.23Freezing Pulse
+-96.23Frenzy
+-96.23Frostbite
+-96.23Frost Blades
+-96.23Frostblink
+-96.23Frostbolt
+-96.23Vortex
+-86.83Frost Bomb
+-71.46529411764706Frost Shield
+-94.73Frost Wall
+-83.39666666666668General's Cry
+-85.81333333333333Glacial Cascade
+-60.730000000000004Glacial Hammer
+-74.89666666666668Grace
+-83.56333333333333Ground Slam
+-74.27761904761905Haste
+-84.14666666666668Hatred
+-87.48Heavy Strike
+-53.56333333333334Herald of Agony
+-68.73Herald of Ash
+-80.73Herald of Ice
+-75.56333333333333Herald of Purity
+-86.14666666666668Herald of Thunder
+-96.23Hexblast
+-96.23Hydrosphere
+-96.23Ice Crash
+-96.23Ice Nova
+-96.23Ice Shot
+-96.23Siphoning Trap
+-96.23Ice Spear
+-96.23Ice Trap
+-96.23Immortal Call
+-96.23Incinerate
+-96.23Infernal Blow
+-96.23Intimidating Cry
+-74.73Intuitive Link
+-52.28909090909091Kinetic Blast
+-67.38Kinetic Bolt
+-87.98Lacerate
+-77.39666666666668Lancing Steel
+-61.3209090909091Leap Slam
+-52.52285714285715Lightning Arrow
+-78.68454545454546Purity of Lightning
+-35.8209090909091Lightning Strike
+15.77000000000001Lightning Tendrils
+-79.48Lightning Spire Trap
+-88.95727272727274Lightning Trap
+-65.06333333333333Lightning Warp
+-74.31823529411764Rolling Magma
+14.394999999999996Manabond
+-96.23Ancestral Protector
+-96.23Mirror Arrow
+-96.23Molten Shell
+-96.23Molten Strike
+-96.23Vulnerability
+-96.23Orb of Storms
+-96.23Penance Brand
+-96.23Perforate
+-96.23Pestilent Strike
+-96.23Petrified Blood
+-96.23Phase Run
+-96.23Seismic Trap
+-56.50272727272728Plague Bearer
+-81.48Poacher's Mark
+-80.98Caustic Arrow
+38.17Poisonous Concoction
+-33.230000000000004Portal
+-84.98Power Siphon
+-31.16181818181819Precision
+-76.23Pride
+-86.73Sniper's Mark
+-34.230000000000004Protective Link
+-86.23Puncture
+-91.73Punishment
+-80.8209090909091Wave of Conviction
+-50.51571428571429Purity of Elements
+-90.23Rage Vortex
+-96.23Rain of Arrows
+-96.23Raise Spectre
+-96.23Raise Zombie
+-96.23Rallying Cry
+-96.23Reave
+-96.23Brand Recall
+-96.23Reckoning
+-96.23Rejuvenation Totem
+-96.23Righteous Fire
+-96.23Riposte
+-96.23Purifying Flame
+-77.59363636363636Scourge Arrow
+-65.43Searing Bond
+-74.45727272727274Seismic Cry
+-49.25380952380953Shattering Steel
+-75.73Shield Charge
+-84.06333333333333Shield Crush
+-80.56333333333333Shock Nova
+-86.00272727272727Shockwave Totem
+-70.15Shrapnel Ballista
+-64.06333333333333Galvanic Arrow
+-79.06333333333333Explosive Trap
+-32.83000000000001Siege Ballista
+-85.64176470588235Sigil of Power
+1.0427272727272765Smite
+-96.23Smoke Mine
+-96.23Soul Link
+-96.23Soulrend
+-96.23Spark
+-96.23Spectral Helix
+-96.23Zealotry
+-96.23Spellslinger
+-96.23Spirit Offering
+-96.23Split Arrow
+-96.23Splitting Steel
+-96.23Static Strike
+-96.23Steelskin
+-96.23Stormbind
+-62.230000000000004Stormblast Mine
+-78.23Storm Brand
+-42.230000000000004Storm Burst
+-71.00272727272727Storm Call
+-75.73Storm Rain
+-73.23Summon Carrion Golem
+-78.23Summon Chaos Golem
+-71.73Summon Flame Golem
+-49.480000000000004Summon Ice Golem
+-78.73Summon Lightning Golem
+-82.34764705882353Summon Raging Spirit
+0.9366666666666532Summon Reaper
+-45.31333333333335Summon Holy Relic
+-48.480000000000004Summon Stone Golem
+-66.56333333333333Summon Skeletons
+-74.21181818181819Summon Skitterbots
+-77.23Sunder
+-75.09363636363636Sweep
+-77.3209090909091Tectonic Slam
+-57.88Tempest Shield
+-79.48Temporal Chains
+-79.98Temporal Rift
+-86.68454545454546Spectral Shield Throw
+-80.31333333333333Spectral Throw
+-71.98Tornado
+-38.64666666666667Tornado Shot
+-76.31181818181818Toxic Rain
+-77.73Vampiric Link
+-78.81823529411766Vengeance
+-79.86636363636364Venom Gyre
+-78.63Vigilant Strike
+-86.23Viper Strike
+-96.23Vitality
+-96.23Void Sphere
+-96.23Volatile Dead
+-96.23Voltaxic Burst
+-96.23Despair
+-96.23War Banner
+-96.23Warlord's Mark
+-96.23Whirling Blades
+-96.23Wild Strike
+-96.23Winter Orb
+-96.23Wintertide Brand
+-96.23Wither
+-96.23Withering Step
+-71.43792079207921Wrath
+-105.48Added Chaos Damage Support
+-105.48Added Cold Damage Support
+-112.14666666666668Added Fire Damage Support
+-102.98Added Lightning Damage Support
+-12.671666666666667Additional Accuracy Support
+-22.480000000000004Empower Support
+-55.480000000000004Enhance Support
+-123.48Enlighten Support
+-87.98Arcane Surge Support
+-80.12285714285714Archmage Support
+-113.98Arrow Nova Support
+-105.48Barrage Support
+-37.05500000000001Behead Support
+-111.84363636363636Blasphemy Support
+-115.48Blind Support
+-123.48Block Chance Reduction Support
+-91.48Bloodlust Support
+-99.73Arrogance Support
+-106.48Bloodthirst Support
+-61.480000000000004Bonechill Support
+-107.98Brutality Support
+-105.64666666666668Cast On Critical Strike Support
+-29.313333333333333Cast when Damage Taken Support
+-111.98Cast on Death Support
+-106.81333333333333Cast on Melee Kill Support
+-67.98Cast when Stunned Support
+-80.73Cast while Channelling Support
+-92.98Chain Support
+-88.31333333333333Chance to Bleed Support
+-80.48Chance to Flee Support
+-90.48Combustion Support
+-92.48Withering Touch Support
+-98.39666666666668Charged Mines Support
+-109.23Close Combat Support
+-90.98Cluster Traps Support
+-112.98Cold Penetration Support
+-121.38909090909091Cold to Fire Support
+-107.14666666666668Concentrated Effect Support
+-82.98Controlled Destruction Support
+-106.23Cruelty Support
+-108.81333333333333Culling Strike Support
+-107.98Hextouch Support
+-98.98Hypothermia Support
+-105.64666666666668Deadly Ailments Support
+-53.980000000000004Predator Support
+-111.31333333333333Decay Support
+-94.64666666666668Earthbreaker Support
+-87.98Efficacy Support
+-110.48Elemental Focus Support
+-123.48Elemental Penetration Support
+-106.48Elemental Proliferation Support
+-104.64666666666668Endurance Charge on Melee Stun Support
+-110.06333333333333Energy Leech Support
+-100.11636363636364Faster Attacks Support
+-110.38909090909091Faster Casting Support
+-104.23Faster Projectiles Support
+-90.44363636363636Feeding Frenzy Support
+-102.48Fire Penetration Support
+-105.81333333333333Fist of War Support
+-68.98Focused Ballista Support
+-102.48Fork Support
+-110.98Fortify Support
+-100.48Ice Bite Support
+-98.98Charged Traps Support
+-104.64666666666668Generosity Support
+4.586666666666659Greater Multiple Projectiles Support
+-92.73Greater Volley Support
+-107.98Unleash Support
+-107.98Intensify Support
+-53.480000000000004High-Impact Mine Support
+-66.48Ignite Proliferation Support
+-100.48Immolate Support
+-58.81333333333333Impale Support
+-123.48Impending Doom Support
+-105.48Increased Area of Effect Support
+-95.98Burning Damage Support
+-105.48Increased Critical Damage Support
+-53.81333333333333Increased Critical Strikes Support
+-109.05142857142857Increased Duration Support
+-107.98Infernal Legion Support
+-106.98Iron Grip Support
+-107.98Iron Will Support
