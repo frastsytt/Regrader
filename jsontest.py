@@ -10,11 +10,17 @@ with open('weightings.json') as f:
     dataWeight = json.load(f)
 with open('pricejson.json') as f:
     dataPrice = json.load(f)
+    
+z = requests.get('https://poe.ninja/api/data/currencyoverview?league=Archnemesis&type=Currency')
+primePrice = json.loads(z.text)["lines"][12]["chaosEquivalent"]
+secondaryPrice = json.loads(z.text)["lines"][8]["chaosEquivalent"]
 
 weightList = []
-primeregradingPrice = 95
-secondaryregradingPrice = 130
+primeregradingPrice = primePrice
+secondaryregradingPrice = secondaryPrice
 
+print(primeregradingPrice)
+print(secondaryregradingPrice)
 data_set = {}
 
 #For loop, goes through all gems and their alt qualities and instantly converts that into possible profit.
@@ -73,10 +79,15 @@ for gemtype in dataWeight:
 s = pd.Series(data_set)
 s = s.nlargest(len(s), keep = 'all')
 f = s.to_dict()
-jsonfile = '../regrader_website/profit.json'
-with open(jsonfile, 'w') as outfile:
-    json.dump(f, outfile, indent=4)
-
+try:
+    jsonfile = '../regrader_website/profit.json'
+    with open(jsonfile, 'w') as outfile:
+        json.dump(f, outfile, indent=4)
+except Exception as e:
+    jsonfile = 'profit.json'
+    with open(jsonfile, 'w') as outfile:
+        json.dump(f, outfile, indent=4)
+        
 weightFile = open("weightList.txt", "w")
 for element in weightList:
     weightFile.write(str(element) + "\n")
