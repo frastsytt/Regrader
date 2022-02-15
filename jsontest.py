@@ -12,8 +12,8 @@ with open('pricejson.json') as f:
     dataPrice = json.load(f)
 
 weightList = []
-primeregradingPrice = 70
-secondaryregradingPrice = 70
+primeregradingPrice = 95
+secondaryregradingPrice = 130
 
 data_set = {}
 
