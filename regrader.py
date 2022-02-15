@@ -6,9 +6,9 @@ req = urllib.request.Request("https://www.pathofexile.com/api/trade/data/items",
 webpage = json.loads(urllib.request.urlopen(req).read())
 
 # temp orb prices
-exvalue = 100
-primary = 60
-secondary = 40
+exvalue = 130
+primary = 100
+secondary = 130
 
 # read weightings.json so that we can query all alt gem types
 with open('weightings.json') as f:

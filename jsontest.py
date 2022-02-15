@@ -73,7 +73,7 @@ for gemtype in dataWeight:
 s = pd.Series(data_set)
 s = s.nlargest(len(s), keep = 'all')
 f = s.to_dict()
-jsonfile = 'profit.json'
+jsonfile = '../regrader_website/profit.json'
 with open(jsonfile, 'w') as outfile:
     json.dump(f, outfile, indent=4)
 
