@@ -95,6 +95,7 @@ f = s.to_dict()
 
 try:
     with open('../regrader_website/update.txt', 'w') as t:
+        t.write("Latest update =")
         t.write(dt_string)
     jsonfile = '../regrader_website/profit.json'
     with open(jsonfile, 'w') as outfile:
