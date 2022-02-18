@@ -1,12 +1,15 @@
 import urllib.request, json, requests, statistics, time
 from heapq import nlargest
+from datetime import datetime
+startTime = datetime.now()
+
 
 # get all gems
 req = urllib.request.Request("https://www.pathofexile.com/api/trade/data/items", headers={'User-Agent': 'Mozilla/5.0'})
 webpage = json.loads(urllib.request.urlopen(req).read())
 
 # temp orb prices
-exvalue = 130
+exvalue = 132
 primary = 100
 secondary = 130
 
@@ -125,6 +128,11 @@ for gemtype in data:
 jsonfile = 'pricejson.json'
 with open(jsonfile, 'w') as outfile:
     json.dump(data_set, outfile, indent=4)
+
+timetakenStr = datetime.now() - startTime    
+with open('../regrader_website/timetaken.txt', 'w') as x:
+    x.write("Time taken to execute =")
+    x.write(str(timetakenStr))
 
 # TEST AREA
 

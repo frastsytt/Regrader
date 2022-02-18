@@ -4,17 +4,25 @@ from heapq import nlargest
 import numpy as np
 import pandas as pd
 
+from datetime import datetime
+
 
 # read weightings.json so that we can query all alt gem types
 with open('weightings.json') as f:
     dataWeight = json.load(f)
 with open('pricejson.json') as f:
     dataPrice = json.load(f)
+    
+z = requests.get('https://poe.ninja/api/data/currencyoverview?league=Archnemesis&type=Currency')
+primePrice = json.loads(z.text)["lines"][12]["chaosEquivalent"]
+secondaryPrice = json.loads(z.text)["lines"][8]["chaosEquivalent"]
 
 weightList = []
-primeregradingPrice = 95
-secondaryregradingPrice = 130
+primeregradingPrice = primePrice
+secondaryregradingPrice = secondaryPrice
 
+print(primeregradingPrice)
+print(secondaryregradingPrice)
 data_set = {}
 
 #For loop, goes through all gems and their alt qualities and instantly converts that into possible profit.
@@ -69,15 +77,40 @@ for gemtype in dataWeight:
         object = {gem : totalprofit}
         data_set.update(object)
         weightList.append(str(totalprofit) + gem)
+        
+now = datetime.now()
+ 
+print("now =", now)
+
+# dd/mm/YY H:M:S
+dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
+print("LATEST UPDATE =", dt_string)	
+
+
 
 s = pd.Series(data_set)
 s = s.nlargest(len(s), keep = 'all')
 f = s.to_dict()
-jsonfile = '../regrader_website/profit.json'
-with open(jsonfile, 'w') as outfile:
-    json.dump(f, outfile, indent=4)
 
-weightFile = open("weightList.txt", "w")
-for element in weightList:
-    weightFile.write(str(element) + "\n")
-weightFile.close
+
+try:
+    with open('../regrader_website/update.txt', 'w') as t:
+        t.write("Latest update =")
+        t.write(dt_string)
+    jsonfile = '../regrader_website/profit.json'
+    with open(jsonfile, 'w') as outfile:
+        json.dump(f, outfile, indent=4)
+except Exception as e:
+    jsonfile = 'profit.json'
+    with open('update.txt', 'w') as t:
+        t.write(dt_string)
+    with open(jsonfile, 'w') as outfile:
+        json.dump(f, outfile, indent=4)
+
+# datetime object containing current date and time
+
+        
+# weightFile = open("weightList.txt", "w")
+# for element in weightList:
+#     weightFile.write(str(element) + "\n")
+# weightFile.close
