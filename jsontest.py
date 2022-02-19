@@ -3,6 +3,7 @@ import urllib.request, json, requests, statistics, time
 from heapq import nlargest
 import numpy as np
 import pandas as pd
+from modules import ninjaCurrencyValue
 
 from datetime import datetime
 
@@ -12,17 +13,13 @@ with open('weightings.json') as f:
     dataWeight = json.load(f)
 with open('pricejson.json') as f:
     dataPrice = json.load(f)
-    
-z = requests.get('https://poe.ninja/api/data/currencyoverview?league=Archnemesis&type=Currency')
-primePrice = json.loads(z.text)["lines"][12]["chaosEquivalent"]
-secondaryPrice = json.loads(z.text)["lines"][8]["chaosEquivalent"]
+
+primePrice = ninjaCurrencyValue('Archnemesis', 'Prime Regrading Lens')
+secondaryPrice = ninjaCurrencyValue('Archnemesis', 'Secondary Regrading Lens')
 
 weightList = []
-primeregradingPrice = primePrice
-secondaryregradingPrice = secondaryPrice
-
-print(primeregradingPrice)
-print(secondaryregradingPrice)
+print(primePrice)
+print(secondaryPrice)
 data_set = {}
 
 #For loop, goes through all gems and their alt qualities and instantly converts that into possible profit.
@@ -70,9 +67,9 @@ for gemtype in dataWeight:
 
         #Add together all the prices to figure out your average profit.
         if(gemtype == "active"):
-            totalprofit = (qual1weightprofit + qual2weightprofit + qual3weightprofit) - primeregradingPrice
+            totalprofit = (qual1weightprofit + qual2weightprofit + qual3weightprofit) - primePrice
         if(gemtype == "support"):
-            totalprofit = (qual1weightprofit + qual2weightprofit + qual3weightprofit) - secondaryregradingPrice
+            totalprofit = (qual1weightprofit + qual2weightprofit + qual3weightprofit) - secondaryPrice
 
         object = {gem : totalprofit}
         data_set.update(object)
