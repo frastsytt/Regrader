@@ -11,6 +11,10 @@ with open('weightings.json') as f:
 for gemtype in data:
     for gem in data[gemtype]:
         for altqual in data[gemtype][gem].keys():
+            if altqual == 'Superior':
+                continue
+            else:
+                pass
             alt_price = {altqual: getAvgGemPrice(f"{altqual} {gem}")}
             data[gemtype][gem].update(alt_price)
 

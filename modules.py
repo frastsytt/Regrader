@@ -66,4 +66,4 @@ currentLeague = 'Archnemesis'
 global exValue
 exValue = ninjaCurrencyValue(currentLeague, 'Exalted Orb')
 
-#print(getAvgGemPrice('Mageblood Heavy Belt'))
+print(getAvgGemPrice('Mageblood Heavy Belt'))
