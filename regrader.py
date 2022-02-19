@@ -7,15 +7,6 @@ startTime = datetime.now()
 with open('weightings.json') as f:
     data = json.load(f)
 
-global currentLeague
-currentLeague = 'Archnemesis'
-global exValue
-exValue = ninjaCurrencyValue(currentLeague, 'Exalted Orb')
-
-# static urls + headers
-url = f'https://www.pathofexile.com/api/trade/search/{currentLeague}'
-headers = {'User-Agent': 'Mozilla/5.0', 'content-type': 'application/json'}
-
 # start putting prices into pricejson
 for gemtype in data:
     for gem in data[gemtype]:

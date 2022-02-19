@@ -3,7 +3,7 @@ import urllib.request, json, requests, statistics, time
 from heapq import nlargest
 import numpy as np
 import pandas as pd
-from modules import ninjaCurrencyValue
+from modules import ninjaCurrencyValue, getAvgGemPrice
 
 from datetime import datetime
 
@@ -16,6 +16,8 @@ with open('pricejson.json') as f:
 
 primePrice = ninjaCurrencyValue('Archnemesis', 'Prime Regrading Lens')
 secondaryPrice = ninjaCurrencyValue('Archnemesis', 'Secondary Regrading Lens')
+
+#print(getAvgGemPrice('Enlighten Support'))
 
 weightList = []
 print(primePrice)
