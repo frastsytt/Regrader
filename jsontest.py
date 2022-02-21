@@ -7,15 +7,14 @@ from modules import ninjaCurrencyValue, getAvgGemPrice
 
 from datetime import datetime
 
-
 # read weightings.json so that we can query all alt gem types
 with open('weightings.json') as f:
     dataWeight = json.load(f)
 with open('pricejson.json') as f:
     dataPrice = json.load(f)
 
-primePrice = ninjaCurrencyValue('Archnemesis', 'Prime Regrading Lens')
-secondaryPrice = ninjaCurrencyValue('Archnemesis', 'Secondary Regrading Lens')
+primePrice = ninjaCurrencyValue('Prime Regrading Lens')
+secondaryPrice = ninjaCurrencyValue('Secondary Regrading Lens')
 
 #print(getAvgGemPrice('Enlighten Support'))
 

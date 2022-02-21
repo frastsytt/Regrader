@@ -1,6 +1,8 @@
 import requests, json, time, statistics
 
-def ninjaCurrencyValue(league, currency):
+currentLeague = 'Archnemesis'
+
+def ninjaCurrencyValue(currency, league = currentLeague):
     curValue = 0
     z = requests.get(f'https://poe.ninja/api/data/currencyoverview?league={league}&type=Currency')
     for i, currencyType in enumerate(json.loads(z.text)["lines"]):
@@ -11,16 +13,17 @@ def ninjaCurrencyValue(league, currency):
             continue
     return curValue
 
-def getAvgGemPrice(gemName, corrFlag=False):
+def getAvgGemPrice(gemName, exValue, corrFlag=False):
     url = f'https://www.pathofexile.com/api/trade/search/{currentLeague}'
-    headers = {'User-Agent': 'Mozilla/5.0', 'content-type': 'application/json'}
+    headers = {'User-Agent': 'Regrader/1.0 roomet.sytt@voco.ee guki#7589 https://github.com/frastsytt/Regrader', 'content-type': 'application/json'}
     myObj = {"query":{"status":{"option":"online"},"term": gemName,"stats":[{"type":"and","filters":[]}],"filters":{"misc_filters":{"filters":{"corrupted":{"option":corrFlag}}}}},"sort":{"price":"asc"}}
-    respo = json.loads(requests.post(url, data=json.dumps(myObj), headers=headers).text)
 
     try:
+        respo = json.loads(requests.post(url, data=json.dumps(myObj), headers=headers).text)
         print(respo["id"] + f" - tradelink for: {gemName}")
     except Exception as e:
         print(e)
+        print(myObj)
         print(respo)
         time.sleep(60)
         return 1
@@ -48,7 +51,8 @@ def getAvgGemPrice(gemName, corrFlag=False):
                 avgcalc.append(listingPrice["listing"]["price"]["amount"])
             else:
                 avgcalc.append(1)
-                pass
+
+
 
         # build small dictionary to be inserted into the big dictionary
         time.sleep(10)
@@ -61,9 +65,6 @@ def getAvgGemPrice(gemName, corrFlag=False):
         time.sleep(60)
         return 1
 
-global currentLeague
-currentLeague = 'Archnemesis'
-global exValue
-exValue = ninjaCurrencyValue(currentLeague, 'Exalted Orb')
-
-print(getAvgGemPrice('Mageblood Heavy Belt'))
+def sleepError(errormsg):
+    print(errormsg)
+    time.sleep(120)
