@@ -75,7 +75,7 @@ for active_support in data_set:
 
         for regradevalue in soup.find("div", {"id": f'{skillgem}'}).find("div", {"class": "table-responsive"}).find('tbody').find_all('tr'):
             tempvar = {regradevalue.find('td').text.replace(" ", "") : {"value": int(regradevalue.find_all('td')[2].text),
-                                                                        "qualityBonus": str(regradevalue.find_all('td')[1].text)}}
+                                                                        "qualityBonus": regradevalue.find_all('td')[1].text}}
             weights_dict[active_support][tempgem]["weights"].update(tempvar)
 
         for i, itemBoxImage in enumerate(soup.find_all("div", {"class": "itemboximage"})):

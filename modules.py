@@ -26,10 +26,10 @@ def getAvgGemPrice(gemName, exValue, corrFlag=False):
         print(myObj)
         print(respo)
         time.sleep(60)
-        return 1
+        return 1, ""
 
     if len(respo["result"]) == 0:
-        return 1
+        return 1, ""
 
     itemList = ''
     for i, item in enumerate(respo["result"]):
@@ -56,14 +56,14 @@ def getAvgGemPrice(gemName, exValue, corrFlag=False):
 
         # build small dictionary to be inserted into the big dictionary
         time.sleep(10)
-        return (statistics.median(avgcalc)) - 1
+        return (statistics.median(avgcalc)) - 1, respo["id"]
 
     except Exception as e:
         print(e)
         print(z.text)
         print("I fucked up, error msg above.")
         time.sleep(60)
-        return 1
+        return 1, ""
 
 def sleepError(errormsg):
     print(errormsg)

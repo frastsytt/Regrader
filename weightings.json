@@ -4,7 +4,6 @@
             "weights": {
                 "Superior": {
                     "value": 100,
-                    "marketValue": 25,
                     "qualityBonus": "Minions deal (0\u201320)% increased Damage"
                 },
                 "Anomalous": {
