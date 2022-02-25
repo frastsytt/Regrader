@@ -19,8 +19,6 @@ secondaryPrice = ninjaCurrencyValue('Secondary Regrading Lens')
 #print(getAvgGemPrice('Enlighten Support'))
 
 weightList = []
-print(primePrice)
-print(secondaryPrice)
 data_set = {}
 
 #For loop, goes through all gems and their alt qualities and instantly converts that into possible profit.
@@ -37,15 +35,15 @@ for gemtype in dataWeight:
         totalprofit = 0
         if(gem == "Item Quantity Support"):
             break;
-        for altqual in dataWeight[gemtype][gem]:
+        for altqual in dataWeight[gemtype][gem]["weights"]:
             if(altqual != "Superior"):
                 try:
                     if(altqual == "Divergent"):
-                        qual1 = int(dataWeight[gemtype][gem][altqual])
+                        qual1 = int(dataWeight[gemtype][gem]["weights"][altqual]["value"])
                     if(altqual == "Anomalous"):
-                        qual2 = int(dataWeight[gemtype][gem][altqual])
+                        qual2 = int(dataWeight[gemtype][gem]["weights"][altqual]["value"])
                     if(altqual == "Phantasmal"):
-                        qual3 = int(dataWeight[gemtype][gem][altqual])
+                        qual3 = int(dataWeight[gemtype][gem]["weights"][altqual]["value"])
                     count += 1
                 except Exception as e:
                     print(e)
@@ -60,6 +58,7 @@ for gemtype in dataWeight:
 
         #Multiply all chances with the corresponding price to see how much money you get on average for each hit.
         if(qual1weight != 0):
+            print(gem)
             qual1weightprofit = qual1weight * dataPrice[gemtype][gem]["Divergent"]
         if(qual2weight != 0):
             qual2weightprofit = qual2weight * dataPrice[gemtype][gem]["Anomalous"]

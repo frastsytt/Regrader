@@ -65,6 +65,32 @@ def getAvgGemPrice(gemName, exValue, corrFlag=False):
         time.sleep(60)
         return 1, ""
 
+def gemInfo(gem):
+    with open('weightings.json', 'r') as f:
+        gemData = json.load(f)
+    for active in gemData["active"]:
+        if gem == active:
+            return [gemData["active"][gem]["weights"], gemData["active"][gem]["images"]["gemIcon"], gem]
+    if "Support" not in gem:
+        gem = gem + " Support"
+    for support in gemData["support"]:
+        if gem == support:
+            return [gemData["support"][gem]["weights"],gemData["support"][gem]["images"]["gemIcon"], gem]
+    print("Error")
+    return "Error"
+
+def gemPrice(gem, quality):
+    with open('pricejson.json', 'r') as f:
+        priceData = json.load(f)
+    for active in priceData["active"]:
+        if gem == active:
+             return priceData["active"][gem][quality]
+    if "Support" not in gem:
+        gem = gem + " Support"
+    for support in priceData["support"]:
+        if gem == support:
+            return priceData["support"][gem][quality]
+
 def sleepError(errormsg):
     print(errormsg)
     time.sleep(120)
