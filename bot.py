@@ -4,7 +4,7 @@ import os
 import discord
 from dotenv import load_dotenv
 from discord.ext import commands
-from modules import gemInfo, ninjaCurrencyValue, gemPrice
+from modules import gemInfo, ninjaCurrencyValue, gemPrice, gemProfit
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
@@ -18,6 +18,7 @@ primaryIcon = "<:PRL:946141140283957328>"
 secondaryIcon = "<:SRL:946141140263006258>"
 exaltedIcon = "<:Exalted:946141140342681650>"
 chaosIcon = "<:chaos:946158278944096326>"
+haasbro = "<a:blinkingpoopemojiblink:946174811024015391>"
 
 @bot.command(name='weight', help='Returns the weight of a gem')
 async def weight(weight, *args):
@@ -43,6 +44,10 @@ async def weight(weight, *args):
             response.set_author(name="Regrader", icon_url="https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/43/Prime_Regrading_Lens_inventory_icon.png/revision/latest/scale-to-width-down/78?cb=20201015024013")
 
             response.set_thumbnail(url=string[1])
+            response.add_field(name=exaltedIcon, value=exaltPrice, inline=True)
+            response.add_field(name=secondaryIcon, value=secondaryPrice, inline=True)
+            response.add_field(name=primaryIcon, value=primePrice, inline=True)
+            response.add_field(name="\u200b", value="\u200b", inline=False)
 
             for key in string[0]:
                 if key == "Superior":
@@ -51,12 +56,12 @@ async def weight(weight, *args):
                     response.add_field(name=key + "\t" + str(string[0][key]["value"]) + "\t" + str(gemPrice(string[2], key)) + " " + chaosIcon, value=str(string[0][key]["qualityBonus"]), inline=False) 
             #response.add_field(name=" ", value=primePrice, url="https://static.wikia.nocookie.net/pathofexile_gamepedia/images/4/43/Prime_Regrading_Lens_inventory_icon.png", inline=True)
             #response.add_field(name=" ", value=secondaryPrice, url="https://www.poewiki.net/w/images/a/a4/Secondary_Regrading_Lens_inventory_icon.png", inline=True)
-            response.add_field(name=exaltedIcon, value=exaltPrice, inline=True)
-            response.add_field(name=secondaryIcon, value=secondaryPrice, inline=True)
-            response.add_field(name=primaryIcon, value=primePrice, inline=True)
-            #embed.add_field(name="Field 3 Title", value="It is inline with Field 2", inline=True)
 
-            response.set_footer(text="This is the footer. It contains text at the bottom of the embed")
+            #embed.add_field(name="Field 3 Title", value="It is inline with Field 2", inline=True)
+            response.add_field(name="\u200b", value="=========================================", inline=False)
+            response.add_field(name="Average profit: " + str(int(gemProfit(string[2]))) + " " + chaosIcon, value="\u200b")
+           # response.set_footer(text="Average profit: " + str(int(gemProfit(string[2]))), icon_url="https://static.wikia.nocookie.net/pathofexile_gamepedia/images/9/9c/Chaos_Orb_inventory_icon.png")
+
             
         await weight.send(embed=response)
 

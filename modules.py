@@ -91,6 +91,12 @@ def gemPrice(gem, quality):
         if gem == support:
             return priceData["support"][gem][quality]
 
+def gemProfit(gem):
+    with open('profit.json') as f:
+        profitData = json.load(f)
+    return profitData[gem]
+
+
 def sleepError(errormsg):
     print(errormsg)
     time.sleep(120)
